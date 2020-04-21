@@ -53,6 +53,27 @@ SELECTED_STYLE = {
 def create_layout():
     layout = html.Div(style={
     }, children=[
+
+        html.Div(
+    [
+        dbc.Button(
+            "Learn more",
+            id="collapse-button",
+            className="mb-3",
+            color="primary",
+        ),
+        dbc.Collapse(
+            dbc.Container(
+
+                create_overview_tab(survey_df, postal_code_df, map_threshold)
+                
+                ),
+            id="collapse",
+        ),
+    ]),
+
+
+
         dcc.Tabs(className="tabs", children=[
 
             dcc.Tab(label='OVERVIEW', children=[
@@ -76,3 +97,4 @@ def create_layout():
         ])
     ],className="DashContent")
     return layout
+    
