@@ -22,7 +22,7 @@ app.index_string = '''
         {%css%}
     </head>
     <body>
-        <div class="head-of-app"><H1>The gendered impact</H1></div>
+        <div class="head-of-app"><H1>The gendered impact of COVID-19</H1></div>
         <div class="app-entry">        
         {%app_entry%}
         </div>
