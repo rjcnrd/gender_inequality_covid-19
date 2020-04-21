@@ -1,6 +1,8 @@
-# Visualising domestic violence in the UK and impacts of covid-19
+# Analysis of the gendered impact of COVID-19 in the UK 
 
-In several European countries, lockdown measures are implemented following the covid-19 outbreak in Spring 2020. In several countries, an increase in domestic violence has been reported following this new living situation. This project aims at increasing information about the increase in domestic violence towards women since the lockdown to raise public attention and action to the subject.
+In several European countries, radical political measures such as nation-wide lockdowns and other restrictions impacting the economy have been implemented following the covid-19 outbreak in Spring 2020.
+
+Many of these political decisions and consequences of the pandemic impact women different then men. This project aims at painting a picture of the current situation to raise public attention and action to the subject.
 
 ### Setup
 
