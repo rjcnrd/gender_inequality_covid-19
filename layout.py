@@ -54,9 +54,11 @@ SELECTED_STYLE = {
 def create_layout():
     layout = html.Div(style={
     }, children=[
-
         html.Div(
     [
+        html.H1("Domestic Abuse"),
+        html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
+        ),
         dbc.Button(
             "Learn more",
             id="collapse-button",
@@ -73,29 +75,68 @@ def create_layout():
         ),
     ]),
 
+     html.Div(
+    [
+        html.H1("Health"),
+        html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
+        ),
+        dbc.Button(
+            "Learn more",
+            id="collapse-button-2",
+            className="mb-3",
+            color="primary",
+        ),
+        dbc.Collapse(
+            dbc.Container(
 
+                create_statistics_tab(survey_df)
+                
+                ),
+            id="collapse-2",
+        ),
+    ]),
 
-        dcc.Tabs(className="tabs", children=[
+    html.Div(
+    [
+        html.H1("Domestic Work"),
+        html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
+        ),
+        dbc.Button(
+            "Learn more",
+            id="collapse-button-3",
+            className="mb-3",
+            color="primary",
+        ),
+        dbc.Collapse(
+            dbc.Container(
 
-            dcc.Tab(label='OVERVIEW', children=[
-                dbc.Container(
-                    create_overview_tab(survey_df, postal_code_df, map_threshold))
-            ],
-                    style=TAB_STYLE,
-                    selected_style=SELECTED_STYLE),
+                create_testimonials_tab(survey_df)
+                
+                ),
+            id="collapse-3",
+        ),
+    ]),
 
-            dcc.Tab(label='STATISTICS',
-                    children=dbc.Container(create_statistics_tab(survey_df)),
-                    style=TAB_STYLE,
-                    selected_style=SELECTED_STYLE),
+      html.Div(
+    [
+        html.H1("Representation in Politics"),
+        html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
+        ),
+        dbc.Button(
+            "Learn more",
+            id="collapse-button-4",
+            className="mb-3",
+            color="primary",
+        ),
+        dbc.Collapse(
+            dbc.Container(
 
-            dcc.Tab(label='TESTIMONIALS',
-                    children=[
-                        dbc.Container(create_testimonials_tab(survey_df), className="testimonialsFrame")
-                    ],
-                    style=TAB_STYLE,
-                    selected_style=SELECTED_STYLE),
-        ])
+                create_testimonials_tab(survey_df)
+                
+                ),
+            id="collapse-4",
+        ),
+    ]),
     ],className="DashContent")
     return layout
     

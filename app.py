@@ -43,6 +43,8 @@ app.layout = dbc.Container(
     create_layout()
     ,className="app-entry")
 
+#Collapse callbacks
+
 @app.callback(
     Output("collapse", "is_open"),
     [Input("collapse-button", "n_clicks")],
@@ -52,6 +54,37 @@ def toggle_collapse(n, is_open):
     if n:
         return not is_open
     return is_open
+
+@app.callback(
+    Output("collapse-2", "is_open"),
+    [Input("collapse-button-2", "n_clicks")],
+    [State("collapse-2", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("collapse-3", "is_open"),
+    [Input("collapse-button-3", "n_clicks")],
+    [State("collapse-3", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("collapse-4", "is_open"),
+    [Input("collapse-button-4", "n_clicks")],
+    [State("collapse-4", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
