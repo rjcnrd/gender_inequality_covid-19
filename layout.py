@@ -56,7 +56,7 @@ def create_layout():
     }, children=[
         html.Div(
     [
-        html.H1("Domestic Abuse"),
+        html.H1(html.Span("Domestic Abuse",className="graph-heading-span"),className="graph-heading"),
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
         dbc.Button(
@@ -77,7 +77,7 @@ def create_layout():
 
      html.Div(
     [
-        html.H1("Health"),
+        html.H1(html.Span("Health",className="graph-heading-span"),className="graph-heading"),
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
         dbc.Button(
@@ -98,7 +98,8 @@ def create_layout():
 
     html.Div(
     [
-        html.H1("Domestic Work"),
+        html.H1(html.Span("Domestic Work",className="graph-heading-span"),className="graph-heading"),
+
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
         dbc.Button(
@@ -119,7 +120,7 @@ def create_layout():
 
       html.Div(
     [
-        html.H1("Representation in Politics"),
+        html.H1(html.Span("Representation in Politics",className="graph-heading-span"),className="graph-heading"),
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
         dbc.Button(
