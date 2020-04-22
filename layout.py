@@ -4,18 +4,6 @@ import dash_bootstrap_components as dbc
 
 import pandas as pd
 
-from overview_tab.overview import create_overview_tab
-from statistics_tab.statistics import create_statistics_tab
-from testimonials_tab.testimonials import create_testimonials_tab
-from urllib.error import URLError
-
-# DATA IN - dummy for now
-survey_df = pd.read_csv("data/dummy_data_new.csv",
-                        index_col=0)
-
-# DATA Postal Code - in the git for now
-postal_code_df = pd.read_csv("data/ukpostcodes.csv")
-
 # Threshold for plotting the data in the graph
 map_threshold = 2
 
