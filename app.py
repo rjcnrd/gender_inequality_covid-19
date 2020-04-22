@@ -24,7 +24,19 @@ app.index_string = '''
         {%css%}
     </head>
     <body>
-        <div class="head-of-app"><H1>The gendered impact of COVID-19</H1></div>
+
+    
+        <div class="head-of-app container">
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <img src="assets/unwomen_logo.jpg" class="image-styling"> 
+            </div>
+            <div class="col-md-9">
+                <H1>The gendered impact of COVID-19</H1>
+            </div>
+        </div>
+        </div>
+            
             <div class="app-entry">        
             {%app_entry%}
         </div>
