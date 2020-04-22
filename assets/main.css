@@ -127,13 +127,13 @@ BUTTON STYLING */
 
 .btn-primary:hover {
     color: white;
-    background-color: #e5f8ff2e;
+    background-color: #d6eef7ad;
     text-decoration: none;
 }
 
 .btn-primary:active {
     box-shadow: none;
-    background-color: #e5f8ff2e !important;
+    background-color: #d6eef7ad !important;
     color: white;
     border-color: red !important;
   }
