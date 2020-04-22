@@ -1,39 +1,46 @@
 /* CSS RULES FOR HTML TAGS */
+
 body {
     font-family: sans-serif;
-    background-color:white
+    background-color: white
 }
 
-h1, h2, h3, h4, h5, h6 {
-    /* font-family:  'BUKA','Alergia Regular',sans-serif; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: white
 }
 
-/* CSS RULES FOR CLASS NAMES WE DEFINE OURSELVES */
-.graph-heading {
-      
-        padding-top: 5%;
-        text-transform: bold;   
-  
-    
-    }
+p {
+    color: white
+}
 
-.graph-heading-span{
+
+/* CSS RULES FOR CLASS NAMES WE DEFINE OURSELVES */
+
+.section-heading {
+    padding-top: 5%;
+    text-transform: bold;
+}
+
+.section-heading-span {
     font-family: sans-serif;
     box-shadow: inset 0 -0.5em 0 0 #d80052;
     padding: 0 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    
 }
 
 .testimonialsFrame {
     margin-top: 2vw;
 }
 
-.testimonialsFrame p{
+.testimonialsFrame p {
     margin-top: 2vw;
-    margin-bottom:2vw;
+    margin-bottom: 2vw;
     border-color: white;
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -43,9 +50,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1vw 1vw;
     animation-name: opacityOn;
     animation-duration: 1s;
-
 }
 
+.big-numbers {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
 
 @keyframes opacityOn {
     0% {
@@ -55,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 1;
     }
 }
-
 
 .overviewNumber {
     color: white;
@@ -73,27 +82,27 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-
-
-.head-of-app{
+.head-of-app {
     background-color: white;
-    height:17vw;
-    text-align:center;
-    color:#d80052
-}
-.head-of-app h1{
-    color:#d80052;
-    font-family:  'BUKA';
-    font-size: 11vw;
+    height: 17vw;
+    text-align: center;
+    color: #d80052
 }
 
-.app-entry{
+.head-of-app h1 {
+    color: #d80052;
+    font-family: 'BUKA';
+    font-size: 10vw;
+    text-transform: "none"
+}
+
+.app-entry {
     background-color: #00a0dd;
     padding-top: 1.5vw
 }
 
 footer {
-    height:14vw
+    height: 14vw
 }
 
 @font-face {
@@ -101,31 +110,40 @@ footer {
     src: url("WTC-BUKA.woff") format('woff');
 }
 
+@font-face {
+    font-family: 'LifeIsMessy';
+    src: url('kglifeismessy-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('KGLifeisMessy.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+
 /* 
 BUTTON STYLING */
 
 .btn-primary {
     color: #fff;
     background-color: #e5f8ff2e;
-    border-color:#e5f8ff2e;
+    border-color: #e5f8ff2e;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary:focus,
+.btn-primary.focus {
     color: #fff;
     background-color: #e5f8ff2e;
     border-color: #e5f8ff2e;
-    -webkit-box-shadow: none ;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.btn-primary:active{
+.btn-primary:active {
     box-shadow: none;
     background-color: #e5f8ff2e;
     color: white;
-  }
+}
 
 .btn-primary:active:focus {
-    -webkit-box-shadow: white  !important;
+    -webkit-box-shadow: white !important;
     box-shadow: none !important;
 }
 
@@ -140,4 +158,4 @@ BUTTON STYLING */
     background-color: #d6eef7ad !important;
     color: white;
     border-color: red !important;
-  }
+}

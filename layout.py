@@ -19,45 +19,25 @@ postal_code_df = pd.read_csv("data/ukpostcodes.csv")
 # Threshold for plotting the data in the graph
 map_threshold = 2
 
-# TAB STYLE IS EQUAL  to H3 in default style
-TAB_STYLE = {
-    'background': '#00a0dd',
-    'color': 'white',
-    'border': 'none',
-    'border-top': 'none',
-    'font-family':'BUKA',
-    'font-size': '6rem',
-    'text-transform': 'uppercase',
-    'letter-spacing': ' 3px',
-    'margin-top': '0',
-    'margin-bottom': '0.5rem',
-    'font-weight': '600',
-    'line-height': '1.2',
-}
-
-SELECTED_STYLE = {
-    'background': '#00a0dd',
-    'color': '#d80052',
-    'border-top': 'none',
-    'border': 'none',
-      'font-family':'BUKA',
-    'font-size': '6rem',
-    'text-transform': 'uppercase',
-    'letter-spacing': ' 3px',
-    'margin-top': '0',
-    'margin-bottom': '0.5rem',
-    'font-weight': '600',
-    'line-height': '1.2',
-}
-
-
 def create_layout():
     layout = html.Div(style={
     }, children=[
         html.Div(
     [
-        html.H1(html.Span("Domestic Abuse",className="graph-heading-span"),className="graph-heading"),
-        html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
+        html.H1(html.Span("Domestic Abuse",className="section-heading-span"),className="section-heading"),
+        html.P(children = [
+            html.Span("20%",className="big-numbers", style={
+            "white-space":"nowrap"
+        }),
+            html.P("of women have experienced domestic abuse by their intimate partner in the last 12 month in the uk"),
+
+        html.Span("one in five",className="big-numbers", style={
+            "white-space":"nowrap"
+        }),
+            html.P("families are headed by a single mother. More then two thirds of them are working. They are now unable to work from home as they have to take care of their children with schools closed all over the country.")
+
+        ]
+       
         ),
         dbc.Button(
             "Learn more",
@@ -77,7 +57,7 @@ def create_layout():
 
      html.Div(
     [
-        html.H1(html.Span("Health",className="graph-heading-span"),className="graph-heading"),
+        html.H1(html.Span("Health",className="section-heading-span"),className="section-heading"),
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
         dbc.Button(
@@ -98,7 +78,7 @@ def create_layout():
 
     html.Div(
     [
-        html.H1(html.Span("Domestic Work",className="graph-heading-span"),className="graph-heading"),
+        html.H1(html.Span("Domestic Work",className="section-heading-span"),className="section-heading"),
 
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
@@ -120,7 +100,7 @@ def create_layout():
 
       html.Div(
     [
-        html.H1(html.Span("Representation in Politics",className="graph-heading-span"),className="graph-heading"),
+        html.H1(html.Span("Representation in Politics",className="section-heading-span"),className="section-heading"),
         html.P("Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroon jelly-o danish oat cake gummi bears I love cheesecake chocolate. Bonbon dragée topping. Fruitcake cheesecake sugar plum cake marshmallow gingerbread caramels cake. I love sweet roll candy canes cheesecake donut candy canes topping. Carrot cake lollipop candy canes. Fruitcake I love bonbon cake I love pastry I love. Bonbon marzipan I love. Bear claw oat cake tart gingerbread tootsie roll. Liquorice powder soufflé. Icing topping ice cream pie donut oat cake gummies. Pudding oat cake cake I love macaroon."
         ),
         dbc.Button(
