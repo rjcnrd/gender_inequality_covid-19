@@ -6,7 +6,9 @@ string = "Sesame snaps chocolate jujubes. Croissant danish muffin. Donut macaroo
 
 def domestic_work_tab():
     children = dbc.Row([
-        dbc.Col([]),
+        dbc.Col([html.Img(src="assets/undraw_icon_children.svg", style={'height': '250px'})],
+                    style={'textAlign': 'center'},
+                    md=4),
         dbc.Col([string])])
 
     return children
