@@ -1,4 +1,6 @@
 import dash_html_components as html
+import dash_bootstrap_components as dbc
+
 from domestic_violence import domestic_violence_tab
 from domestic_work import domestic_work_tab
 from employment import employment_tab
@@ -12,7 +14,7 @@ def create_layout():
         html.Div(
             [
                 html.H1(html.Span("Domestic Violence", className="section-heading-span"), className="section-heading"),
-                html.P(domestic_violence_tab()),
+                dbc.Container(domestic_violence_tab()),
                 # html.Div(
                 # dbc.Button(
                 #     "Learn more",
@@ -32,7 +34,7 @@ def create_layout():
         html.Div(
             [
                 html.H1(html.Span("Health", className="section-heading-span"), className="section-heading"),
-                html.P(employment_tab()),
+                 dbc.Container(employment_tab()),
 
                 # html.Div(
                 #     dbc.Button(
@@ -54,7 +56,7 @@ def create_layout():
             [
                 html.H1(html.Span("Domestic Work", className="section-heading-span"), className="section-heading"),
 
-                html.P(domestic_work_tab()),
+                 dbc.Container(domestic_work_tab()),
                 #    html.Div(
                 #     dbc.Button(
                 #         "Learn more",
