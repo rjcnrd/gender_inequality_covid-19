@@ -37,3 +37,16 @@ def domestic_violence_tab():
         ])
     ]
     return children
+
+
+def domestic_violence_learn_more():
+    children = [dbc.Row([
+            dbc.Col([html.Span("270 calls and contacts per day", className="big-numbers"
+                               ),
+                html.P(
+                         [
+                             "received on average per day prior to the lockdown measures being introduced by the National Domestic Abuse Helpline run by Refuge. ",
+                             dcc.Link("[Refuge]",
+                                      href="https://www.refuge.org.uk/25-increase-in-calls-to-national-domestic-abuse-helpline-since-lockdown-measures-began/")
+                         ])])])]
+    return children
