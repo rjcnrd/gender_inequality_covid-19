@@ -55,6 +55,7 @@ p {
 .big-numbers {
     font-family: sans-serif;
     font-size: 2rem;
+    color: white
 }
 
 @keyframes opacityOn {
@@ -179,4 +180,10 @@ BUTTON STYLING */
     background-color: #d6eef7ad !important;
     color: white;
     border-color: red !important;
+}
+
+a {
+    color: #f7f7f973;
+    text-decoration: none;
+    background-color: transparent;
 }
