@@ -33,7 +33,7 @@ def create_layout():
 
         html.Div(
             [
-                html.H1(html.Span("Health", className="section-heading-span"), className="section-heading"),
+                html.H1(html.Span("Employment", className="section-heading-span"), className="section-heading"),
                  dbc.Container(employment_tab()),
 
                 # html.Div(
