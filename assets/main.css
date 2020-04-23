@@ -55,6 +55,7 @@ p {
 .big-numbers {
     font-family: sans-serif;
     font-size: 2rem;
+    color: white
 }
 
 @keyframes opacityOn {
