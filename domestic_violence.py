@@ -37,3 +37,14 @@ def domestic_violence_tab():
         ])
     ]
     return children
+
+
+def domestic_violence_learn_more():
+    children = [dbc.Row([
+            dbc.Col([html.P(
+                         [
+                             "increase in calls and contacts to Refuge National Domestic Abuse Helpline in the two first weeks of the lockdown. Refuge is the UKs largest domestic abuse charity. ",
+                             dcc.Link("[Refuge]",
+                                      href="https://www.refuge.org.uk/25-increase-in-calls-to-national-domestic-abuse-helpline-since-lockdown-measures-began/")
+                         ])])])]
+    return children
