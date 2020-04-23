@@ -181,3 +181,9 @@ BUTTON STYLING */
     color: white;
     border-color: red !important;
 }
+
+a {
+    color: #f7f7f973;
+    text-decoration: none;
+    background-color: transparent;
+}
