@@ -5,7 +5,9 @@ import dash_bootstrap_components as dbc
 def domestic_violence_tab():
     children = [
         dbc.Row([
-            dbc.Col([]),
+            dbc.Col([html.Img(src="assets/undraw_icon_night_calls_domestic_violence.svg", style={'height': '250px'})],
+                    style={'textAlign': 'center'},
+                    md= 4),
             dbc.Col([html.Span("20%", className="big-numbers"
                                ),
                      html.P(
