@@ -33,7 +33,7 @@ Make sure you have master up to date, then :
 ```
 git push heroku master
 ```
-Link can be found : https://dash-app-gender-violence.herokuapp.com
+deployed app : https://gender-inequality-covid-19.herokuapp.com/
 
 ## Built With
 
