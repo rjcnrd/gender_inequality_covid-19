@@ -26,7 +26,7 @@ def employment_tab():
                      [
                          text1,
                          dcc.Link("[NHS]",
-                                  href=source1)
+                                  href=source1, target='_blank')
                     ]),
                  html.Span(title2, className="big-numbers"
                            ),
@@ -34,14 +34,14 @@ def employment_tab():
                      [
                          text2,
                          dcc.Link("[IFS]",
-                                  href=source2)]),
+                                  href=source2, target='_blank')]),
                  html.Span(title3, className="big-numbers"
                            ),
                  html.P(
                      [
                          text3,
                          dcc.Link("[House of Commons Library]",
-                                  href=source3)])
+                                  href=source3, target='_blank')])
                  ]),  
 
             dbc.Col([html.Img(src="assets/undraw_medical_care_movn.svg", style={'height': '250px'})],
