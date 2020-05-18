@@ -20,15 +20,15 @@ def map_graph(big_bubble_size=2, small_bubble_size=0.01):
     # all_reports_df, safety_df, safety_change_df, mental_health_df, working_situation_df = merge_local_internat_dataframe(
     # survey_df, postal_code_df, countries_df, map_threshold)
     all_reports_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/domestic_violence_covid-19/master/data/data_map_all_reports.csv")
+        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
     safety_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/domestic_violence_covid-19/master/data/data_map_safety_scale.csv")
+        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_safety_scale.csv")
     safety_change_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/domestic_violence_covid-19/master/data/data_map_safety_change.csv")
+        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_safety_change.csv")
     mental_health_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/domestic_violence_covid-19/master/data/data_map_mental_health.csv")
+        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_mental_health.csv")
     working_situation_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/domestic_violence_covid-19/master/data/data_map_working_situation.csv")
+        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_working_situation.csv")
 
     # Text for hover
     all_reports_df["safety_text"] = np.where(all_reports_df["safety_level"] == 0, "",
