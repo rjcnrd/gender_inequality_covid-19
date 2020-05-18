@@ -1,14 +1,32 @@
 import dash_html_components as html
 import dash_bootstrap_components as dbc
+import dash_core_components as dcc
 
 from domestic_violence import domestic_violence_tab, domestic_violence_learn_more
 from domestic_work import domestic_work_tab
 from employment import employment_tab
+from map_graph.draw_map import map_graph
+
+
+# Bubble size on the map graph (the bigger the smaller the bubble). Size for the first layer of the map graph (the overview)
+big_bubble_size = 0.1
+
+# Bubble size on the map graph (the bigger the smaller the bubble). Size for the other layers of the graph
+small_bubble_size = 0.01
 
 
 def create_layout():
     layout = html.Div(style={
     }, children=[
+        html.Div(
+            [
+                html.H1(html.Span("How are you feeling", className="section-heading-span"), className="section-heading"),
+                html.Div(children=[
+                    html.Div(children=[
+                        dcc.Graph(figure=map_graph(big_bubble_size, small_bubble_size))])
+
+                ])
+            ]),
         html.Div(
             [
                 html.H1(html.Span("Domestic Violence", className="section-heading-span"), className="section-heading"),

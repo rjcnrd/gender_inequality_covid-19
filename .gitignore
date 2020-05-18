@@ -8,3 +8,5 @@ __pycache__/
 ideas.txt
 .idea
 data/
+typeform/typeform_token.py
+.env
