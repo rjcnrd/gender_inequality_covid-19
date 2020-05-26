@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-sankey_df = pd.read_csv("data/sankey.csv")
+sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/sankey.csv")
 
 
 def sankey_graph():
