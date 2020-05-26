@@ -54,8 +54,7 @@ def map_graph(big_bubble_size=2, small_bubble_size=0.01):
         height=580,  # height of the graph
         plot_bgcolor='rgba(0,0,0,0)',
         margin=dict(l=20, r=30, t=20, b=20),
-        mapbox=dict(accesstoken=MAPBOX_TOKEN,
-                    style=MAPBOX_STYLE_URL,
+        mapbox=dict(style="carto-positron",
                     center=go.layout.mapbox.Center(lat=54.237933, lon=-2.36967),
                     zoom=4.5  # add a zoom of size of great britain
                     ))
