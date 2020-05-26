@@ -9,6 +9,8 @@ import dash_html_components as html
 from layout import create_layout
 
 from map_graph.draw_map import map_graph
+from sankey_graph.draw_sankey import sankey_graph
+
 
 # external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 external_stylesheets = [dbc.themes.LUX]
@@ -68,6 +70,8 @@ def display_page(pathname):
                 , className="app-entry")
     elif pathname == "/map":
         return dcc.Graph(figure=map_graph(big_bubble_size, small_bubble_size))
+    elif pathname == "/sankey":
+        return dcc.Graph(figure=sankey_graph())
 
     else:
         return html.Div([
