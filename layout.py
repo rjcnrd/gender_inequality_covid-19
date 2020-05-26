@@ -8,6 +8,8 @@ from employment import employment_tab
 
 from map_graph.draw_map import map_graph
 from sankey_graph.draw_sankey import sankey_graph
+from housework_piechart.draw_piechart import piechart
+
 
 # Bubble size on the map graph (the bigger the smaller the bubble). Size for the first layer of the map graph (the overview)
 big_bubble_size = 0.1
@@ -24,7 +26,7 @@ def create_layout(map_df ,sankey_df):
                 html.H1(html.Span("How are you feeling", className="section-heading-span"), className="section-heading"),
                 html.Div(children=[
                     html.Div(children=[
-                        dcc.Graph(figure=map_graph(map_df ,big_bubble_size, small_bubble_size))])
+                        dcc.Graph(figure=map_graph(map_df,big_bubble_size, small_bubble_size))])
 
                 ])
             ]),
@@ -38,6 +40,18 @@ def create_layout(map_df ,sankey_df):
 
                 ])
             ]),
+
+            html.Div(
+            [
+                html.H1(html.Span("Piechart", className="section-heading-span"), className="section-heading"),
+                html.Div(children=[
+                    html.Div(children=[
+                        dcc.Graph(figure=piechart(sankey_df))])
+
+                ])
+            ]),
+
+        
 
 
 
