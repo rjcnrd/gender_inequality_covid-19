@@ -11,7 +11,7 @@ MAPBOX_STYLE_URL = os.getenv("MAPBOX_STYLE_URL")
 FAMILY = "PT Sans"
 
 
-def map_graph(big_bubble_size=2, small_bubble_size=0.01):
+def map_graph(all_reports_df,big_bubble_size=2, small_bubble_size=0.01):
     """
     :param big_bubble_size: size of the reference bubble in the map. For the first layer. The bigger the bubble_size, the smaller the bubble
     :param small_bubble_size: size of the reference bubble in the map. For the other layer. The bigger the bubble_size, the smaller the bubble
@@ -19,8 +19,6 @@ def map_graph(big_bubble_size=2, small_bubble_size=0.01):
     """
     # all_reports_df, safety_df, safety_change_df, mental_health_df, working_situation_df = merge_local_internat_dataframe(
     # survey_df, postal_code_df, countries_df, map_threshold)
-    all_reports_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
 
     # Text for hover
     all_reports_df["overall_text"] = np.where(all_reports_df["all_reports"] == 1,

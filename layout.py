@@ -5,6 +5,7 @@ import dash_core_components as dcc
 from domestic_violence import domestic_violence_tab, domestic_violence_learn_more
 from domestic_work import domestic_work_tab
 from employment import employment_tab
+
 from map_graph.draw_map import map_graph
 from sankey_graph.draw_sankey import sankey_graph
 
@@ -15,7 +16,7 @@ big_bubble_size = 0.1
 small_bubble_size = 0.01
 
 
-def create_layout():
+def create_layout(map_df ,sankey_df):
     layout = html.Div(style={
     }, children=[
         html.Div(
@@ -23,7 +24,7 @@ def create_layout():
                 html.H1(html.Span("How are you feeling", className="section-heading-span"), className="section-heading"),
                 html.Div(children=[
                     html.Div(children=[
-                        dcc.Graph(figure=map_graph(big_bubble_size, small_bubble_size))])
+                        dcc.Graph(figure=map_graph(map_df ,big_bubble_size, small_bubble_size))])
 
                 ])
             ]),
@@ -33,7 +34,7 @@ def create_layout():
                 html.H1(html.Span("Household Share", className="section-heading-span"), className="section-heading"),
                 html.Div(children=[
                     html.Div(children=[
-                        dcc.Graph(figure=sankey_graph())])
+                        dcc.Graph(figure=sankey_graph(sankey_df))])
 
                 ])
             ]),
