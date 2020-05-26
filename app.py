@@ -11,7 +11,7 @@ from layout import create_layout
 
 from map_graph.draw_map import map_graph
 from sankey_graph.draw_sankey import sankey_graph
-
+from housework_piechart.draw_piechart import piechart
 
 # external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 external_stylesheets = [dbc.themes.LUX]
@@ -77,6 +77,8 @@ def display_page(pathname):
         return dcc.Graph(figure=map_graph(map_df,big_bubble_size, small_bubble_size))
     elif pathname == "/sankey":
         return dcc.Graph(figure=sankey_graph(sankey_df))
+    elif pathname == "/piechart_housework":
+        return dcc.Graph(figure=piechart(sankey_df))
 
     else:
         return html.Div([
