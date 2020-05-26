@@ -2,9 +2,10 @@
 import dash
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
-
 import dash_core_components as dcc
 import dash_html_components as html
+
+import pandas as pd
 
 from layout import create_layout
 
@@ -22,6 +23,10 @@ big_bubble_size = 0.1
 
 # Bubble size on the map graph (the bigger the smaller the bubble). Size for the other layers of the graph
 small_bubble_size = 0.01
+
+# IMPORT DATA
+sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/sankey.csv")
+map_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
@@ -66,12 +71,12 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == "/":
         return dbc.Container(
-                create_layout()
+                create_layout(map_df,sankey_df)
                 , className="app-entry")
     elif pathname == "/map":
-        return dcc.Graph(figure=map_graph(big_bubble_size, small_bubble_size))
+        return dcc.Graph(figure=map_graph(map_df,big_bubble_size, small_bubble_size))
     elif pathname == "/sankey":
-        return dcc.Graph(figure=sankey_graph())
+        return dcc.Graph(figure=sankey_graph(sankey_df))
 
     else:
         return html.Div([

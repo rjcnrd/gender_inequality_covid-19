@@ -1,24 +1,20 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/sankey.csv")
-
-
-def sankey_graph():
-    subdf = sankey_df
+def sankey_graph(sankey_df):
 
     living_dim = go.parcats.Dimension(
-        values=subdf.living_category_var_names,
+        values=sankey_df.living_category_var_names,
         categoryorder='category ascending', label="I am living with... "
     )
-    household_dim = go.parcats.Dimension(values=subdf.housework_mapped, label="I take care of ...",
+    household_dim = go.parcats.Dimension(values=sankey_df.housework_mapped, label="I take care of ...",
                                          categoryarray=[0, 1, 2],
                                          ticktext=['all or most<br>of the <br>housework',
                                                    'as much<br>housework<br>as others',
                                                    'less then others <br>or none of  <br>the housework',
                                                    ])
 
-    color = subdf.housework_mapped
+    color = sankey_df.housework_mapped
     colorscale = ["#9F8CF3", "#F9C2C2", "#FFAECA"]
 
     fig = go.Figure(data=[go.Parcats(
