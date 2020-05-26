@@ -12,12 +12,12 @@ from layout import create_layout
 from map_graph.draw_map import map_graph
 from sankey_graph.draw_sankey import sankey_graph
 from housework_piechart.draw_piechart import piechart
+from scatter_mental_health.draw_scatter import draw_scatterbarplot
 
 # external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 external_stylesheets = [dbc.themes.LUX]
 
-
-#IMPORT MAP VARIABLES
+# IMPORT MAP VARIABLES
 # Bubble size on the map graph (the bigger the smaller the bubble). Size for the first layer of the map graph (the overview)
 big_bubble_size = 0.1
 
@@ -26,7 +26,9 @@ small_bubble_size = 0.01
 
 # IMPORT DATA
 sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/sankey.csv")
-map_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
+map_df = pd.read_csv(
+    "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
+data_scatter = pd.read_csv("./data/data_scatterplot.csv")
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
@@ -66,19 +68,22 @@ app.layout = html.Div([
     html.Div(id='page-content')
 ])
 
+
 @app.callback(dash.dependencies.Output('page-content', 'children'),
               [dash.dependencies.Input('url', 'pathname')])
 def display_page(pathname):
     if pathname == "/":
         return dbc.Container(
-                create_layout(map_df,sankey_df)
-                , className="app-entry")
+            create_layout(map_df, sankey_df, data_scatter)
+            , className="app-entry")
     elif pathname == "/map":
-        return dcc.Graph(figure=map_graph(map_df,big_bubble_size, small_bubble_size))
+        return dcc.Graph(figure=map_graph(map_df, big_bubble_size, small_bubble_size))
     elif pathname == "/sankey":
         return dcc.Graph(figure=sankey_graph(sankey_df))
     elif pathname == "/piechart_housework":
         return dcc.Graph(figure=piechart(sankey_df))
+    elif pathname == "/scatter_mental_health":
+        return dcc.Graph(figure=draw_scatterbarplot(data_scatter))
 
     else:
         return html.Div([
@@ -88,6 +93,3 @@ def display_page(pathname):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-
-
