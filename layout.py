@@ -36,6 +36,7 @@ def create_layout(map_df ,sankey_df, data_scatter):
         html.Div(
             [
                 html.H1(html.Span("Mental Health", className="section-heading-span"), className="section-heading"),
+                dcc.Link("[Open chart in seperate tab]", href="/scatter_mental_health", target='_blank'),
                 html.Div(children=[
                     html.Div(children=[
                         dcc.Graph(figure=draw_scatterbarplot(data_scatter, num_by_col=5))])
