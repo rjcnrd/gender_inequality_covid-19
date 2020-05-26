@@ -6,7 +6,7 @@ from domestic_violence import domestic_violence_tab, domestic_violence_learn_mor
 from domestic_work import domestic_work_tab
 from employment import employment_tab
 from map_graph.draw_map import map_graph
-
+from sankey_graph.draw_sankey import sankey_graph
 
 # Bubble size on the map graph (the bigger the smaller the bubble). Size for the first layer of the map graph (the overview)
 big_bubble_size = 0.1
@@ -27,6 +27,19 @@ def create_layout():
 
                 ])
             ]),
+
+          html.Div(
+            [
+                html.H1(html.Span("Household Share", className="section-heading-span"), className="section-heading"),
+                html.Div(children=[
+                    html.Div(children=[
+                        dcc.Graph(figure=sankey_graph())])
+
+                ])
+            ]),
+
+
+
         html.Div(
             [
                 html.H1(html.Span("Domestic Violence", className="section-heading-span"), className="section-heading"),
