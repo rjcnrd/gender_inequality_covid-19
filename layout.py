@@ -23,7 +23,9 @@ def create_layout(map_df ,sankey_df):
     }, children=[
         html.Div(
             [
-                html.H1(html.Span("How are you feeling", className="section-heading-span"), className="section-heading"),
+                html.H1(html.Span("From where we collected your voices", className="section-heading-span"), className="section-heading"),
+                dcc.Link("[Open chart in seperate tab]", href="/map", target='_blank'),
+
                 html.Div(children=[
                     html.Div(children=[
                         dcc.Graph(figure=map_graph(map_df,big_bubble_size, small_bubble_size))])
@@ -33,7 +35,9 @@ def create_layout(map_df ,sankey_df):
 
           html.Div(
             [
-                html.H1(html.Span("Household Share", className="section-heading-span"), className="section-heading"),
+                html.H1(html.Span("Women's share of domestic work", className="section-heading-span"), className="section-heading"),
+                dcc.Link("[Open chart in seperate tab]",
+                                      href="/sankey", target='_blank'),
                 html.Div(children=[
                     html.Div(children=[
                         dcc.Graph(figure=sankey_graph(sankey_df))])
@@ -43,7 +47,9 @@ def create_layout(map_df ,sankey_df):
 
             html.Div(
             [
-                html.H1(html.Span("Piechart", className="section-heading-span"), className="section-heading"),
+                html.H1(html.Span("Women's share of domestic work (simplified)", className="section-heading-span"), className="section-heading"),
+                dcc.Link("[Open chart in seperate tab]",
+                        href="/piechart_housework", target='_blank'),
                 html.Div(children=[
                     html.Div(children=[
                         dcc.Graph(figure=piechart(sankey_df))])
