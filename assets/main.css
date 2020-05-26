@@ -58,6 +58,10 @@ p {
     color: white
 }
 
+.modebar{
+      display: none !important;
+}
+
 @keyframes opacityOn {
     0% {
         opacity: 0;

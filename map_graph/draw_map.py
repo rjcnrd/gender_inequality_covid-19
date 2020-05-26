@@ -21,28 +21,13 @@ def map_graph(big_bubble_size=2, small_bubble_size=0.01):
     # survey_df, postal_code_df, countries_df, map_threshold)
     all_reports_df = pd.read_csv(
         "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
-    safety_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_safety_scale.csv")
-    safety_change_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_safety_change.csv")
-    mental_health_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_mental_health.csv")
-    working_situation_df = pd.read_csv(
-        "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_working_situation.csv")
 
     # Text for hover
-    all_reports_df["safety_text"] = np.where(all_reports_df["safety_level"] == 0, "",
-                                             all_reports_df["safety_level"].map(
-                                                 "<br><i>{}</i> report to feel unsafe".format))
-    all_reports_df["safety_change_text"] = np.where(all_reports_df["safety_change"] == 0, "",
-                                                    all_reports_df["safety_change"].map(
-                                                        "<br><i>{}</i> report feeling less safe".format))
-    all_reports_df["mental_scale_text"] = np.where(all_reports_df["mental_scale"] == 0, "",
-                                                   all_reports_df["mental_scale"].map(
-                                                       "<br><i>{}</i> report low mental health".format))
-    all_reports_df["work_situation_text"] = np.where(all_reports_df["work_situation"] == 0, "",
-                                                     all_reports_df["work_situation"].map(
-                                                         "<br><i>{}</i> report that they had to stop working".format))
+    all_reports_df["overall_text"] = np.where(all_reports_df["all_reports"] == 1,
+                                              all_reports_df["all_reports"].map("<b>{} report from ".format) +
+                                              all_reports_df["area_name"].map("{} </b>".format),
+                                              all_reports_df["all_reports"].map("<b>{} reports from ".format) +
+                                              all_reports_df["area_name"].map("{} </b>".format))
 
     # All reports
     fig = go.Figure(
@@ -50,103 +35,18 @@ def map_graph(big_bubble_size=2, small_bubble_size=0.01):
             lat=all_reports_df.latitude,
             lon=all_reports_df.longitude,
             mode='markers',
-            hovertemplate="<b>%{marker.size:,} reports from %{text}</b>" +
-                          "%{customdata[0]}" +
-                          "%{customdata[1]}" +
-                          "%{customdata[2]}" +
-                          "%{customdata[3]}" +
+            hovertemplate="%{text}" +
                           "<extra></extra>",
-            text=all_reports_df.area_name,
             hoverlabel=dict(bgcolor='#eceded',
                             bordercolor='#eceded',
                             font=dict(color="rgb(68, 68, 68)", size=11)),
-            customdata=np.stack((all_reports_df["safety_text"], all_reports_df["safety_change_text"],
-                                 all_reports_df["mental_scale_text"], all_reports_df["work_situation_text"]), axis=-1),
+            text=all_reports_df["overall_text"],
             marker=go.scattermapbox.Marker(
                 sizeref=big_bubble_size,
                 size=all_reports_df.all_reports,
                 sizemode="area",
                 # size of the dots
                 color='#d80052'  # dots are pink
-            )))
-    # Safety
-    fig.add_trace(
-        go.Scattermapbox(
-            visible=False,
-            lat=safety_df.latitude,
-            lon=safety_df.longitude,
-            mode='markers',
-            hovertemplate="<b>%{text}</b><br>" + "%{marker.size:,} report to feel unsafe during the lockdown" + "<extra></extra>",
-            text=safety_df.area_name,
-            hoverlabel=dict(bgcolor='#eceded',
-                            bordercolor='#eceded',
-                            font=dict(color="rgb(68, 68, 68)", size=11)),
-            marker=go.scattermapbox.Marker(
-                sizeref=small_bubble_size,
-                size=safety_df.safety_level,
-                sizemode="area",
-                # size of the dots
-                color='red'
-            )))
-
-    # Safety Change
-    fig.add_trace(
-        go.Scattermapbox(
-            visible=False,
-            lat=safety_change_df.latitude,
-            lon=safety_change_df.longitude,
-            mode='markers',
-            hovertemplate="<b>%{text}</b><br>" + "%{marker.size:,} report to feel less safe during the lockdown" + "<extra></extra>",
-            text=safety_change_df.area_name,
-            hoverlabel=dict(bgcolor='#eceded',
-                            bordercolor='#eceded',
-                            font=dict(color="rgb(68, 68, 68)", size=11)),
-            marker=go.scattermapbox.Marker(
-                sizeref=small_bubble_size,
-                size=safety_change_df.safety_change,
-                sizemode="area",
-                # size of the dots
-                color='DarkRed'
-            )))
-
-    # Mental Health
-    fig.add_trace(
-        go.Scattermapbox(
-            visible=False,
-            lat=mental_health_df.latitude,
-            lon=mental_health_df.longitude,
-            mode='markers',
-            hovertemplate="<b>%{text}</b><br>" + "%{marker.size:,} report to have a low mental health during the lockdown" + "<extra></extra>",
-            text=mental_health_df.area_name,
-            hoverlabel=dict(bgcolor='#eceded',
-                            bordercolor='#eceded',
-                            font=dict(color="rgb(68, 68, 68)", size=11)),
-            marker=go.scattermapbox.Marker(
-                sizeref=small_bubble_size,
-                size=mental_health_df.mental_scale,
-                sizemode="area",
-                # size of the dots
-                color='orange'
-            )))
-
-    # Working situation
-    fig.add_trace(
-        go.Scattermapbox(
-            visible=False,
-            lat=working_situation_df.latitude,
-            lon=working_situation_df.longitude,
-            mode='markers',
-            hovertemplate="<b>%{text}</b><br>" + "%{marker.size:,} report that they had to stop working during the lockdown" + "<extra></extra>",
-            text=working_situation_df.area_name,
-            hoverlabel=dict(bgcolor='#eceded',
-                            bordercolor='#eceded',
-                            font=dict(color="rgb(68, 68, 68)", size=11)),
-            marker=go.scattermapbox.Marker(
-                sizeref=small_bubble_size,
-                size=working_situation_df.work_situation,
-                sizemode="area",
-                # size of the dots
-                color='Indigo'
             )))
 
     fig.update_layout(  # mapbox_style="carto-positron",  # Chooses the type of map in the background
@@ -158,28 +58,6 @@ def map_graph(big_bubble_size=2, small_bubble_size=0.01):
                     style=MAPBOX_STYLE_URL,
                     center=go.layout.mapbox.Center(lat=54.237933, lon=-2.36967),
                     zoom=4.5  # add a zoom of size of great britain
-                    ),
-        updatemenus=[dict(
-            xanchor="right",
-            x=1,  # place of the menu
-            borderwidth=0.1,
-            buttons=list([
-                dict(label="All reports",
-                     method="update",
-                     args=[{"visible": [True, False, False, False, False]}]),
-                dict(label="Low Safety",
-                     method="update",
-                     args=[{"visible": [False, True, False, False, False]}]),
-                dict(label="Safety Change for Worse",
-                     method="update",
-                     args=[{"visible": [False, False, True, False, False]}]),
-                dict(label="Low Mental Health Rating",
-                     method="update",
-                     args=[{"visible": [False, False, False, True, False]}]),
-                dict(label="Critical Working Situation",
-                     method="update",
-                     args=[{"visible": [False, False, False, False, True]}])
-            ]),
-        )])
+                    ))
 
     return fig
