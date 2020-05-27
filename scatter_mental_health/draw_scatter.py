@@ -65,7 +65,7 @@ def draw_scatterbarplot(data, num_by_col=5):
     fig.add_trace(go.Scatter(x=data_without_testimonial.x,
                              y=data_without_testimonial.y,
                              mode='markers',
-                             marker=dict(color="black"),
+                             marker=dict(color="black", size=3),
                              hovertemplate=None,
                              hoverinfo='skip'))
 
@@ -73,9 +73,15 @@ def draw_scatterbarplot(data, num_by_col=5):
     fig.add_trace(go.Scatter(x=data_testimonial.x,
                              y=data_testimonial.y,
                              mode='markers',
-                             marker=dict(color="#FFAECA"),
+                             marker=dict(color="#FFAECA", size=3),
                              text=data_testimonial.testimonials_short,
-                             hovertemplate="%{text}" + "<extra></extra>"))
+                             hovertemplate="%{text}" + "<extra></extra>",
+                             hoverlabel=dict(
+                                 bordercolor="#FFAECA",
+                                 font=dict(color="rgb(68, 68, 68)", size=11)
+                             )
+                             )
+                  )
 
     # Mental health grade
     fig.add_trace(go.Scatter(
@@ -102,7 +108,7 @@ def draw_scatterbarplot(data, num_by_col=5):
             x=[x + np.median(range(num_by_col)) + space_between_rating,
                x + np.median(range(num_by_col)) + space_between_rating],
             y=[0, -3],
-            mode="lines", marker=dict(color="black"),
+            mode="lines", marker=dict(color="black",  size=1),
             hoverinfo="skip"
         ))
     # Big Line
@@ -111,13 +117,16 @@ def draw_scatterbarplot(data, num_by_col=5):
             x=[x, x],
             y=[-3, 4],
             mode="lines",
-            marker=dict(color="black"),
+            marker=dict(color="black", size=3),
             hoverinfo="skip"
         ))
 
     fig.update_layout(showlegend=False,
                       paper_bgcolor='rgba(0,0,0,0)',
-                      plot_bgcolor='rgba(0,0,0,0)')
+                      plot_bgcolor='rgba(0,0,0,0)',
+                      height=600,  # height of the graph
+                      margin=dict(l=0, r=0, t=20, b=20)
+                      )
 
     fig.update_xaxes(showticklabels=False, visible=False)
     fig.update_yaxes(showticklabels=False, visible=False, scaleanchor="x", scaleratio=1)
