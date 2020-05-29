@@ -25,7 +25,9 @@ big_bubble_size = 0.1
 small_bubble_size = 0.01
 
 # IMPORT DATA
-sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/sankey.csv")
+#sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_sankey_piechart.csv")
+sankey_df = pd.read_csv("data/data_sankey_piechart.csv")
+
 map_df = pd.read_csv(
     "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
 data_scatter = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/scatter_mental_health/data/data_scatterplot.csv")
