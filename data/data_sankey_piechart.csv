@@ -1,480 +1,481 @@
 ,housework_mapped,living_category_var_names,housework_amount
-0,1,Other,We share it equally
-1,0,with my partner,I take care of all the housework
-2,1,with friends,We share it equally
-4,0,with my partner  <br>and children,I take care of most of the housework
-5,0,with my partner  <br>and children,I take care of most of the housework
-6,1,with my partner  <br>and children,We share it equally
-7,1,with other <br>family members,We share it equally
-10,2,with other <br>family members,I do less housework than others
-12,1,with other <br>family members,We share it equally
-14,1,Other,We share it equally
-15,2,with other <br>family members,I do less housework than others
-16,0,with my partner,I take care of most of the housework
-17,0,with other <br>family members,I take care of most of the housework
-19,1,Other,We share it equally
-20,0,Other,I take care of all the housework
-21,1,with friends,We share it equally
-22,2,with other <br>family members,I do less housework than others
-24,1,Other,We share it equally
-26,0,with other <br>family members,I take care of most of the housework
-27,1,with my partner,We share it equally
+0,1,with my partner,We share it equally
+1,1,Other,We share it equally
+2,0,with my partner,I take care of all the housework
+3,1,with friends,We share it equally
+5,0,with <br>my partner  <br>and children,I take care of most of the housework
+6,0,with <br>my partner  <br>and children,I take care of most of the housework
+7,1,with <br>my partner  <br>and children,We share it equally
+8,1,with other <br>family members,We share it equally
+11,2,with other <br>family members,I do less housework than others
+13,1,with other <br>family members,We share it equally
+15,1,Other,We share it equally
+16,2,with other <br>family members,I do less housework than others
+17,0,with my partner,I take care of most of the housework
+18,0,with other <br>family members,I take care of most of the housework
+20,1,Other,We share it equally
+21,0,Other,I take care of all the housework
+22,1,with friends,We share it equally
+23,2,with other <br>family members,I do less housework than others
+25,1,Other,We share it equally
+27,0,with other <br>family members,I take care of most of the housework
 28,1,with my partner,We share it equally
-29,0,with my partner  <br>and children,I take care of most of the housework
-30,1,with other <br>family members,We share it equally
+29,1,with my partner,We share it equally
+30,0,with <br>my partner  <br>and children,I take care of most of the housework
 31,1,with other <br>family members,We share it equally
-32,1,with my partner,We share it equally
-34,0,alone <br> with my children,I take care of all the housework
-36,0,with my partner,I take care of all the housework
-37,0,Other,I take care of most of the housework
-41,1,with other <br>family members,We share it equally
-42,0,Other,I take care of all the housework
-43,1,Other,We share it equally
-45,0,with my partner,I take care of all the housework
-46,1,with other <br>family members,We share it equally
-47,0,with other <br>family members,I take care of all the housework
-48,1,Other,We share it equally
-50,0,with my partner,I take care of most of the housework
-51,2,with other <br>family members,I am not doing any housework
-52,1,with other <br>family members,We share it equally
-53,2,with other <br>family members,I do less housework than others
-54,0,with friends,I take care of most of the housework
-55,1,with other <br>family members,We share it equally
+32,1,with other <br>family members,We share it equally
+33,1,with my partner,We share it equally
+35,0,alone with<br>my children,I take care of all the housework
+37,0,with my partner,I take care of all the housework
+38,0,Other,I take care of most of the housework
+42,1,with other <br>family members,We share it equally
+43,0,Other,I take care of all the housework
+44,1,Other,We share it equally
+46,0,with my partner,I take care of all the housework
+47,1,with other <br>family members,We share it equally
+48,0,with other <br>family members,I take care of all the housework
+49,1,Other,We share it equally
+51,0,with my partner,I take care of most of the housework
+52,2,with other <br>family members,I am not doing any housework
+53,1,with other <br>family members,We share it equally
+54,2,with other <br>family members,I do less housework than others
+55,0,with friends,I take care of most of the housework
 56,1,with other <br>family members,We share it equally
-61,0,with other <br>family members,I take care of most of the housework
-62,1,with friends,We share it equally
-63,2,with my partner,I do less housework than others
-66,1,with friends,We share it equally
-69,0,with other <br>family members,I take care of most of the housework
-72,0,with my partner,I take care of most of the housework
-74,2,with other <br>family members,I do less housework than others
-76,2,with other <br>family members,I do less housework than others
-79,2,with other <br>family members,I do less housework than others
-81,1,with friends,We share it equally
-82,2,with other <br>family members,I do less housework than others
-84,0,Other,I take care of all the housework
-85,2,with friends,I do less housework than others
-86,1,with my partner,We share it equally
-89,0,with friends,I take care of all the housework
-90,1,with other <br>family members,We share it equally
+57,1,with other <br>family members,We share it equally
+62,0,with other <br>family members,I take care of most of the housework
+63,1,with friends,We share it equally
+64,2,with my partner,I do less housework than others
+67,1,with friends,We share it equally
+70,0,with other <br>family members,I take care of most of the housework
+73,0,with my partner,I take care of most of the housework
+75,2,with other <br>family members,I do less housework than others
+77,2,with other <br>family members,I do less housework than others
+80,2,with other <br>family members,I do less housework than others
+82,1,with friends,We share it equally
+83,2,with other <br>family members,I do less housework than others
+85,0,Other,I take care of all the housework
+86,2,with friends,I do less housework than others
+87,1,with my partner,We share it equally
+90,0,with friends,I take care of all the housework
 91,1,with other <br>family members,We share it equally
-92,2,with other <br>family members,I do less housework than others
-94,1,with other <br>family members,We share it equally
-98,2,with other <br>family members,I do less housework than others
-99,1,Other,We share it equally
-100,2,with other <br>family members,I do less housework than others
-102,0,with friends,I take care of most of the housework
-103,1,with my partner,We share it equally
-104,2,with other <br>family members,I do less housework than others
-105,1,with other <br>family members,We share it equally
-106,2,with other <br>family members,I do less housework than others
-109,0,Other,I take care of most of the housework
-110,1,with my partner,We share it equally
-111,2,with other <br>family members,I do less housework than others
-113,2,with other <br>family members,I do less housework than others
-118,1,with other <br>family members,We share it equally
-119,1,Other,We share it equally
+92,1,with other <br>family members,We share it equally
+93,2,with other <br>family members,I do less housework than others
+95,1,with other <br>family members,We share it equally
+99,2,with other <br>family members,I do less housework than others
+100,1,Other,We share it equally
+101,2,with other <br>family members,I do less housework than others
+103,0,with friends,I take care of most of the housework
+104,1,with my partner,We share it equally
+105,2,with other <br>family members,I do less housework than others
+106,1,with other <br>family members,We share it equally
+107,2,with other <br>family members,I do less housework than others
+110,0,Other,I take care of most of the housework
+111,1,with my partner,We share it equally
+112,2,with other <br>family members,I do less housework than others
+114,2,with other <br>family members,I do less housework than others
+119,1,with other <br>family members,We share it equally
 120,1,Other,We share it equally
-121,2,Other,I do less housework than others
-122,1,Other,We share it equally
-131,1,with other <br>family members,We share it equally
-133,1,with other <br>family members,We share it equally
-134,2,with other <br>family members,I am not doing any housework
-135,1,with friends,We share it equally
-139,1,with other <br>family members,We share it equally
-140,2,with other <br>family members,I do less housework than others
-143,1,with other <br>family members,We share it equally
-146,1,with other <br>family members,We share it equally
-150,0,with my partner,I take care of most of the housework
-151,0,with other <br>family members,I take care of most of the housework
-152,2,with other <br>family members,I do less housework than others
-153,1,with other <br>family members,We share it equally
-154,2,with other <br>family members,I do less housework than others
-158,2,with my partner,I do less housework than others
-159,2,with other <br>family members,I do less housework than others
-160,1,with other <br>family members,We share it equally
-161,2,with my partner  <br>and children,I do less housework than others
-163,1,Other,We share it equally
-164,0,with other <br>family members,I take care of most of the housework
-167,1,with my partner,We share it equally
-170,1,with my partner,We share it equally
-172,0,Other,I take care of most of the housework
-173,1,Other,We share it equally
-177,1,with my partner,We share it equally
-178,0,with other <br>family members,I take care of all the housework
-179,0,with other <br>family members,I take care of most of the housework
-183,2,with other <br>family members,I do less housework than others
-184,2,Other,I do less housework than others
-185,1,with other <br>family members,We share it equally
+121,1,Other,We share it equally
+122,2,Other,I do less housework than others
+123,1,Other,We share it equally
+132,1,with other <br>family members,We share it equally
+134,1,with other <br>family members,We share it equally
+135,2,with other <br>family members,I am not doing any housework
+136,1,with friends,We share it equally
+140,1,with other <br>family members,We share it equally
+141,2,with other <br>family members,I do less housework than others
+144,1,with other <br>family members,We share it equally
+147,1,with other <br>family members,We share it equally
+151,0,with my partner,I take care of most of the housework
+152,0,with other <br>family members,I take care of most of the housework
+153,2,with other <br>family members,I do less housework than others
+154,1,with other <br>family members,We share it equally
+155,2,with other <br>family members,I do less housework than others
+159,2,with my partner,I do less housework than others
+160,2,with other <br>family members,I do less housework than others
+161,1,with other <br>family members,We share it equally
+162,2,with <br>my partner  <br>and children,I do less housework than others
+164,1,Other,We share it equally
+165,0,with other <br>family members,I take care of most of the housework
+168,1,with my partner,We share it equally
+171,1,with my partner,We share it equally
+173,0,Other,I take care of most of the housework
+174,1,Other,We share it equally
+178,1,with my partner,We share it equally
+179,0,with other <br>family members,I take care of all the housework
+180,0,with other <br>family members,I take care of most of the housework
+184,2,with other <br>family members,I do less housework than others
+185,2,Other,I do less housework than others
 186,1,with other <br>family members,We share it equally
 187,1,with other <br>family members,We share it equally
-188,2,with other <br>family members,I do less housework than others
-190,1,with friends,We share it equally
-193,2,with other <br>family members,I do less housework than others
+188,1,with other <br>family members,We share it equally
+189,2,with other <br>family members,I do less housework than others
+191,1,with friends,We share it equally
 194,2,with other <br>family members,I do less housework than others
-195,1,with my partner,We share it equally
+195,2,with other <br>family members,I do less housework than others
 196,1,with my partner,We share it equally
-198,2,with other <br>family members,I do less housework than others
-199,1,with my partner,We share it equally
-200,1,with other <br>family members,We share it equally
+197,1,with my partner,We share it equally
+199,2,with other <br>family members,I do less housework than others
+200,1,with my partner,We share it equally
 201,1,with other <br>family members,We share it equally
-202,2,with other <br>family members,I do less housework than others
-203,2,with friends,I do less housework than others
-204,1,with other <br>family members,We share it equally
-205,1,with my partner,We share it equally
-206,1,with other <br>family members,We share it equally
-207,0,alone <br> with my children,I take care of all the housework
-208,1,Other,We share it equally
-209,0,Other,I take care of all the housework
-210,1,with my partner,We share it equally
+202,1,with other <br>family members,We share it equally
+203,2,with other <br>family members,I do less housework than others
+204,2,with friends,I do less housework than others
+205,1,with other <br>family members,We share it equally
+206,1,with my partner,We share it equally
+207,1,with other <br>family members,We share it equally
+208,0,alone with<br>my children,I take care of all the housework
+209,1,Other,We share it equally
+210,0,Other,I take care of all the housework
 211,1,with my partner,We share it equally
-213,1,with my partner,We share it equally
-214,0,with my partner  <br>and children,I take care of all the housework
-215,1,with other <br>family members,We share it equally
-216,1,with my partner  <br>and children,We share it equally
-217,1,with friends,We share it equally
-218,0,with my partner  <br>and children,I take care of most of the housework
-219,0,with my partner,I take care of most of the housework
-220,2,with other <br>family members,I do less housework than others
-221,1,with other <br>family members,We share it equally
-222,0,with other <br>family members,I take care of most of the housework
-223,2,with other <br>family members,I am not doing any housework
-224,2,with my partner  <br>and children,I do less housework than others
-225,2,with other <br>family members,I do less housework than others
-226,0,Other,I take care of most of the housework
-227,1,with other <br>family members,We share it equally
-228,2,with other <br>family members,I do less housework than others
-229,0,with other <br>family members,I take care of most of the housework
-230,1,with my partner,We share it equally
-231,0,with my partner,I take care of most of the housework
+212,1,with my partner,We share it equally
+214,1,with my partner,We share it equally
+215,0,with <br>my partner  <br>and children,I take care of all the housework
+216,1,with other <br>family members,We share it equally
+217,1,with <br>my partner  <br>and children,We share it equally
+218,1,with friends,We share it equally
+219,0,with <br>my partner  <br>and children,I take care of most of the housework
+220,0,with my partner,I take care of most of the housework
+221,2,with other <br>family members,I do less housework than others
+222,1,with other <br>family members,We share it equally
+223,0,with other <br>family members,I take care of most of the housework
+224,2,with other <br>family members,I am not doing any housework
+225,2,with <br>my partner  <br>and children,I do less housework than others
+226,2,with other <br>family members,I do less housework than others
+227,0,Other,I take care of most of the housework
+228,1,with other <br>family members,We share it equally
+229,2,with other <br>family members,I do less housework than others
+230,0,with other <br>family members,I take care of most of the housework
+231,1,with my partner,We share it equally
 232,0,with my partner,I take care of most of the housework
-233,1,Other,We share it equally
-234,1,with other <br>family members,We share it equally
+233,0,with my partner,I take care of most of the housework
+234,1,Other,We share it equally
 235,1,with other <br>family members,We share it equally
-236,1,with my partner,We share it equally
-237,0,with friends,I take care of most of the housework
-238,0,with my partner,I take care of most of the housework
-239,1,with friends,We share it equally
-240,0,with my partner,I take care of all the housework
-241,1,with friends,We share it equally
-242,1,with my partner  <br>and children,We share it equally
-244,2,with other <br>family members,I do less housework than others
-245,1,with my partner  <br>and children,We share it equally
-246,1,with other <br>family members,We share it equally
-247,1,with my partner,We share it equally
-248,2,with other <br>family members,I am not doing any housework
-250,1,with other <br>family members,We share it equally
-251,1,with my partner,We share it equally
-252,0,Other,I take care of most of the housework
-253,2,with other <br>family members,I am not doing any housework
+236,1,with other <br>family members,We share it equally
+237,1,with my partner,We share it equally
+238,0,with friends,I take care of most of the housework
+239,0,with my partner,I take care of most of the housework
+240,1,with friends,We share it equally
+241,0,with my partner,I take care of all the housework
+242,1,with friends,We share it equally
+243,1,with <br>my partner  <br>and children,We share it equally
+245,2,with other <br>family members,I do less housework than others
+246,1,with <br>my partner  <br>and children,We share it equally
+247,1,with other <br>family members,We share it equally
+248,1,with my partner,We share it equally
+249,2,with other <br>family members,I am not doing any housework
+251,1,with other <br>family members,We share it equally
+252,1,with my partner,We share it equally
+253,0,Other,I take care of most of the housework
 254,2,with other <br>family members,I am not doing any housework
-255,1,Other,We share it equally
-257,0,alone <br> with my children,I take care of all the housework
-258,1,Other,We share it equally
-259,1,with my partner,We share it equally
-260,1,with my partner  <br>and children,We share it equally
-261,0,with friends,I take care of most of the housework
-262,1,with other <br>family members,We share it equally
-263,0,with my partner  <br>and children,I take care of all the housework
-264,1,with my partner,We share it equally
-266,1,with my partner  <br>and children,We share it equally
-268,1,with other <br>family members,We share it equally
-269,1,with friends,We share it equally
-270,0,with other <br>family members,I take care of most of the housework
-271,0,with friends,I take care of most of the housework
-272,0,with my partner,I take care of most of the housework
-273,0,with other <br>family members,I take care of most of the housework
-274,1,with my partner,We share it equally
+255,2,with other <br>family members,I am not doing any housework
+256,1,Other,We share it equally
+258,0,alone with<br>my children,I take care of all the housework
+259,1,Other,We share it equally
+260,1,with my partner,We share it equally
+261,1,with <br>my partner  <br>and children,We share it equally
+262,0,with friends,I take care of most of the housework
+263,1,with other <br>family members,We share it equally
+264,0,with <br>my partner  <br>and children,I take care of all the housework
+265,1,with my partner,We share it equally
+267,1,with <br>my partner  <br>and children,We share it equally
+269,1,with other <br>family members,We share it equally
+270,1,with friends,We share it equally
+271,0,with other <br>family members,I take care of most of the housework
+272,0,with friends,I take care of most of the housework
+273,0,with my partner,I take care of most of the housework
+274,0,with other <br>family members,I take care of most of the housework
 275,1,with my partner,We share it equally
 276,1,with my partner,We share it equally
-277,1,with my partner  <br>and children,We share it equally
-278,1,Other,We share it equally
-279,0,with my partner  <br>and children,I take care of most of the housework
-280,1,with my partner  <br>and children,We share it equally
-281,2,with my partner  <br>and children,I do less housework than others
-282,1,alone <br> with my children,We share it equally
-284,1,with my partner  <br>and children,We share it equally
-285,1,with my partner  <br>and children,We share it equally
-286,1,with other <br>family members,We share it equally
-287,0,with my partner  <br>and children,I take care of all the housework
-288,0,with my partner  <br>and children,I take care of most of the housework
-289,1,with other <br>family members,We share it equally
-290,0,with my partner  <br>and children,I take care of all the housework
-291,0,Other,I take care of most of the housework
-292,2,with other <br>family members,I do less housework than others
-293,0,with other <br>family members,I take care of all the housework
-294,1,with my partner  <br>and children,We share it equally
-295,0,with other <br>family members,I take care of all the housework
-296,0,with my partner  <br>and children,I take care of most of the housework
-297,0,with my partner  <br>and children,I take care of most of the housework
-298,0,with my partner  <br>and children,I take care of most of the housework
-299,0,alone <br> with my children,I take care of most of the housework
-300,2,Other,I am not doing any housework
-301,2,with my partner  <br>and children,I am not doing any housework
-302,2,alone <br> with my children,I do less housework than others
-303,0,with my partner  <br>and children,I take care of most of the housework
-304,0,alone <br> with my children,I take care of all the housework
-305,1,Other,We share it equally
-307,2,Other,I do less housework than others
-308,1,with other <br>family members,We share it equally
-309,0,with my partner,I take care of most of the housework
+277,1,with my partner,We share it equally
+278,1,with <br>my partner  <br>and children,We share it equally
+279,1,Other,We share it equally
+280,0,with <br>my partner  <br>and children,I take care of most of the housework
+281,1,with <br>my partner  <br>and children,We share it equally
+282,2,with <br>my partner  <br>and children,I do less housework than others
+283,1,alone with<br>my children,We share it equally
+285,1,with <br>my partner  <br>and children,We share it equally
+286,1,with <br>my partner  <br>and children,We share it equally
+287,1,with other <br>family members,We share it equally
+288,0,with <br>my partner  <br>and children,I take care of all the housework
+289,0,with <br>my partner  <br>and children,I take care of most of the housework
+290,1,with other <br>family members,We share it equally
+291,0,with <br>my partner  <br>and children,I take care of all the housework
+292,0,Other,I take care of most of the housework
+293,2,with other <br>family members,I do less housework than others
+294,0,with other <br>family members,I take care of all the housework
+295,1,with <br>my partner  <br>and children,We share it equally
+296,0,with other <br>family members,I take care of all the housework
+297,0,with <br>my partner  <br>and children,I take care of most of the housework
+298,0,with <br>my partner  <br>and children,I take care of most of the housework
+299,0,with <br>my partner  <br>and children,I take care of most of the housework
+300,0,alone with<br>my children,I take care of most of the housework
+301,2,Other,I am not doing any housework
+302,2,with <br>my partner  <br>and children,I am not doing any housework
+303,2,alone with<br>my children,I do less housework than others
+304,0,with <br>my partner  <br>and children,I take care of most of the housework
+305,0,alone with<br>my children,I take care of all the housework
+306,1,Other,We share it equally
+308,2,Other,I do less housework than others
+309,1,with other <br>family members,We share it equally
 310,0,with my partner,I take care of most of the housework
-311,1,with other <br>family members,We share it equally
-312,0,with my partner,I take care of all the housework
-313,1,with my partner,We share it equally
-314,0,Other,I take care of most of the housework
-315,1,with other <br>family members,We share it equally
-317,0,with my partner  <br>and children,I take care of most of the housework
-318,0,alone <br> with my children,I take care of all the housework
-319,1,alone <br> with my children,We share it equally
-320,2,with friends,I do less housework than others
-321,0,with other <br>family members,I take care of most of the housework
-322,0,with other <br>family members,0
-323,2,with other <br>family members,I do less housework than others
-324,1,with other <br>family members,We share it equally
-325,0,with other <br>family members,I take care of all the housework
-326,2,with my partner  <br>and children,I do less housework than others
-327,0,with my partner,I take care of most of the housework
-329,0,alone <br> with my children,I take care of all the housework
-330,1,with my partner  <br>and children,We share it equally
-331,0,with my partner,I take care of most of the housework
-332,1,with other <br>family members,We share it equally
-333,1,with friends,We share it equally
+311,0,with my partner,I take care of most of the housework
+312,1,with other <br>family members,We share it equally
+313,0,with my partner,I take care of all the housework
+314,1,with my partner,We share it equally
+315,0,Other,I take care of most of the housework
+316,1,with other <br>family members,We share it equally
+318,0,with <br>my partner  <br>and children,I take care of most of the housework
+319,0,alone with<br>my children,I take care of all the housework
+320,1,alone with<br>my children,We share it equally
+321,2,with friends,I do less housework than others
+322,0,with other <br>family members,I take care of most of the housework
+323,0,with other <br>family members,0
+324,2,with other <br>family members,I do less housework than others
+325,1,with other <br>family members,We share it equally
+326,0,with other <br>family members,I take care of all the housework
+327,2,with <br>my partner  <br>and children,I do less housework than others
+328,0,with my partner,I take care of most of the housework
+330,0,alone with<br>my children,I take care of all the housework
+331,1,with <br>my partner  <br>and children,We share it equally
+332,0,with my partner,I take care of most of the housework
+333,1,with other <br>family members,We share it equally
 334,1,with friends,We share it equally
-335,2,with other <br>family members,I do less housework than others
-336,0,with my partner,I take care of most of the housework
-337,0,with my partner  <br>and children,I take care of all the housework
-338,1,with other <br>family members,We share it equally
+335,1,with friends,We share it equally
+336,2,with other <br>family members,I do less housework than others
+337,0,with my partner,I take care of most of the housework
+338,0,with <br>my partner  <br>and children,I take care of all the housework
 339,1,with other <br>family members,We share it equally
-340,2,with other <br>family members,I am not doing any housework
-341,1,with other <br>family members,We share it equally
+340,1,with other <br>family members,We share it equally
+341,2,with other <br>family members,I am not doing any housework
 342,1,with other <br>family members,We share it equally
-343,2,with other <br>family members,I am not doing any housework
-344,1,with my partner,We share it equally
-345,0,with my partner  <br>and children,I take care of all the housework
-346,0,Other,I take care of most of the housework
-347,0,with my partner,I take care of most of the housework
-348,0,with my partner,I take care of all the housework
-349,0,with my partner,I take care of most of the housework
-350,2,with other <br>family members,I do less housework than others
-352,0,with my partner  <br>and children,I take care of most of the housework
-353,1,with my partner,We share it equally
-354,1,with other <br>family members,We share it equally
-355,1,with my partner  <br>and children,We share it equally
-356,1,Other,We share it equally
-357,2,Other,I do less housework than others
-358,1,with other <br>family members,We share it equally
-359,1,with my partner,We share it equally
-360,1,Other,We share it equally
-361,0,with other <br>family members,0
-362,1,with my partner,We share it equally
+343,1,with other <br>family members,We share it equally
+344,2,with other <br>family members,I am not doing any housework
+345,1,with my partner,We share it equally
+346,0,with <br>my partner  <br>and children,I take care of all the housework
+347,0,Other,I take care of most of the housework
+348,0,with my partner,I take care of most of the housework
+349,0,with my partner,I take care of all the housework
+350,0,with my partner,I take care of most of the housework
+351,2,with other <br>family members,I do less housework than others
+353,0,with <br>my partner  <br>and children,I take care of most of the housework
+354,1,with my partner,We share it equally
+355,1,with other <br>family members,We share it equally
+356,1,with <br>my partner  <br>and children,We share it equally
+357,1,Other,We share it equally
+358,2,Other,I do less housework than others
+359,1,with other <br>family members,We share it equally
+360,1,with my partner,We share it equally
+361,1,Other,We share it equally
+362,0,with other <br>family members,0
 363,1,with my partner,We share it equally
-364,0,with my partner,I take care of all the housework
-365,0,alone <br> with my children,I take care of most of the housework
-366,0,with my partner  <br>and children,I take care of all the housework
-367,0,alone <br> with my children,I take care of all the housework
-368,1,with my partner,We share it equally
-370,1,with my partner,We share it equally
-371,0,with my partner  <br>and children,I take care of all the housework
-372,0,with my partner,I take care of all the housework
-373,1,with my partner  <br>and children,We share it equally
-374,1,Other,We share it equally
-375,0,alone <br> with my children,I take care of all the housework
-376,0,with my partner  <br>and children,I take care of all the housework
-377,1,with my partner,We share it equally
-378,0,with my partner  <br>and children,I take care of all the housework
-379,0,with my partner,I take care of most of the housework
-381,1,with my partner,We share it equally
-383,1,with my partner,We share it equally
-384,1,with friends,We share it equally
-385,1,with my partner,We share it equally
-387,0,with my partner  <br>and children,I take care of all the housework
-388,0,with my partner,I take care of most of the housework
-389,1,with friends,We share it equally
-390,1,with my partner,We share it equally
-391,0,with my partner,I take care of most of the housework
-392,2,with other <br>family members,I am not doing any housework
-393,1,with my partner,We share it equally
-395,0,with my partner,I take care of most of the housework
-396,0,Other,I take care of all the housework
-397,0,with my partner  <br>and children,I take care of all the housework
-398,1,with my partner  <br>and children,We share it equally
-400,1,with my partner  <br>and children,We share it equally
-401,0,with my partner  <br>and children,I take care of most of the housework
-403,0,with my partner  <br>and children,I take care of all the housework
-404,0,with my partner,I take care of most of the housework
-406,0,with my partner  <br>and children,I take care of most of the housework
-409,0,alone <br> with my children,I take care of all the housework
-410,2,with my partner,I am not doing any housework
-411,1,with my partner,We share it equally
-412,2,Other,I do less housework than others
-413,0,alone <br> with my children,I take care of all the housework
-414,0,with other <br>family members,I take care of most of the housework
-415,0,with my partner  <br>and children,I take care of most of the housework
-416,0,with my partner,I take care of most of the housework
-417,0,with other <br>family members,I take care of most of the housework
-418,1,with other <br>family members,We share it equally
-420,1,with my partner  <br>and children,We share it equally
-421,1,with other <br>family members,We share it equally
-422,2,with other <br>family members,I do less housework than others
-423,0,with my partner,I take care of most of the housework
-424,2,with other <br>family members,I am not doing any housework
-426,0,alone <br> with my children,I take care of all the housework
-427,0,with my partner,I take care of most of the housework
-428,0,Other,I take care of all the housework
-429,0,alone <br> with my children,I take care of most of the housework
-430,1,with my partner,We share it equally
-431,0,with my partner  <br>and children,I take care of all the housework
-432,0,with my partner  <br>and children,I take care of most of the housework
-433,0,with friends,I take care of all the housework
-435,1,with other <br>family members,We share it equally
-436,0,with other <br>family members,I take care of most of the housework
-437,0,with other <br>family members,I take care of all the housework
-438,0,with other <br>family members,I take care of most of the housework
-439,1,Other,We share it equally
-440,1,with other <br>family members,We share it equally
-441,0,alone <br> with my children,I take care of all the housework
-442,0,alone <br> with my children,I take care of all the housework
-443,1,with other <br>family members,We share it equally
-444,1,with friends,We share it equally
+364,1,with my partner,We share it equally
+365,0,with my partner,I take care of all the housework
+366,0,alone with<br>my children,I take care of most of the housework
+367,0,with <br>my partner  <br>and children,I take care of all the housework
+368,0,alone with<br>my children,I take care of all the housework
+369,1,with my partner,We share it equally
+371,1,with my partner,We share it equally
+372,0,with <br>my partner  <br>and children,I take care of all the housework
+373,0,with my partner,I take care of all the housework
+374,1,with <br>my partner  <br>and children,We share it equally
+375,1,Other,We share it equally
+376,0,alone with<br>my children,I take care of all the housework
+377,0,with <br>my partner  <br>and children,I take care of all the housework
+378,1,with my partner,We share it equally
+379,0,with <br>my partner  <br>and children,I take care of all the housework
+380,0,with my partner,I take care of most of the housework
+382,1,with my partner,We share it equally
+384,1,with my partner,We share it equally
+385,1,with friends,We share it equally
+386,1,with my partner,We share it equally
+388,0,with <br>my partner  <br>and children,I take care of all the housework
+389,0,with my partner,I take care of most of the housework
+390,1,with friends,We share it equally
+391,1,with my partner,We share it equally
+392,0,with my partner,I take care of most of the housework
+393,2,with other <br>family members,I am not doing any housework
+394,1,with my partner,We share it equally
+396,0,with my partner,I take care of most of the housework
+397,0,Other,I take care of all the housework
+398,0,with <br>my partner  <br>and children,I take care of all the housework
+399,1,with <br>my partner  <br>and children,We share it equally
+401,1,with <br>my partner  <br>and children,We share it equally
+402,0,with <br>my partner  <br>and children,I take care of most of the housework
+404,0,with <br>my partner  <br>and children,I take care of all the housework
+405,0,with my partner,I take care of most of the housework
+407,0,with <br>my partner  <br>and children,I take care of most of the housework
+410,0,alone with<br>my children,I take care of all the housework
+411,2,with my partner,I am not doing any housework
+412,1,with my partner,We share it equally
+413,2,Other,I do less housework than others
+414,0,alone with<br>my children,I take care of all the housework
+415,0,with other <br>family members,I take care of most of the housework
+416,0,with <br>my partner  <br>and children,I take care of most of the housework
+417,0,with my partner,I take care of most of the housework
+418,0,with other <br>family members,I take care of most of the housework
+419,1,with other <br>family members,We share it equally
+421,1,with <br>my partner  <br>and children,We share it equally
+422,1,with other <br>family members,We share it equally
+423,2,with other <br>family members,I do less housework than others
+424,0,with my partner,I take care of most of the housework
+425,2,with other <br>family members,I am not doing any housework
+427,0,alone with<br>my children,I take care of all the housework
+428,0,with my partner,I take care of most of the housework
+429,0,Other,I take care of all the housework
+430,0,alone with<br>my children,I take care of most of the housework
+431,1,with my partner,We share it equally
+432,0,with <br>my partner  <br>and children,I take care of all the housework
+433,0,with <br>my partner  <br>and children,I take care of most of the housework
+434,0,with friends,I take care of all the housework
+436,1,with other <br>family members,We share it equally
+437,0,with other <br>family members,I take care of most of the housework
+438,0,with other <br>family members,I take care of all the housework
+439,0,with other <br>family members,I take care of most of the housework
+440,1,Other,We share it equally
+441,1,with other <br>family members,We share it equally
+442,0,alone with<br>my children,I take care of all the housework
+443,0,alone with<br>my children,I take care of all the housework
+444,1,with other <br>family members,We share it equally
 445,1,with friends,We share it equally
-446,1,Other,We share it equally
-447,0,with friends,I take care of most of the housework
-448,1,with my partner,We share it equally
-449,0,with my partner  <br>and children,I take care of most of the housework
-450,1,with friends,We share it equally
-451,1,with other <br>family members,We share it equally
-452,2,with other <br>family members,I do less housework than others
-453,2,Other,I do less housework than others
-454,0,with my partner  <br>and children,I take care of most of the housework
-455,1,with other <br>family members,We share it equally
-456,0,Other,I take care of most of the housework
-457,0,with other <br>family members,I take care of most of the housework
-459,0,Other,I take care of most of the housework
-462,2,with other <br>family members,I do less housework than others
+446,1,with friends,We share it equally
+447,1,Other,We share it equally
+448,0,with friends,I take care of most of the housework
+449,1,with my partner,We share it equally
+450,0,with <br>my partner  <br>and children,I take care of most of the housework
+451,1,with friends,We share it equally
+452,1,with other <br>family members,We share it equally
+453,2,with other <br>family members,I do less housework than others
+454,2,Other,I do less housework than others
+455,0,with <br>my partner  <br>and children,I take care of most of the housework
+456,1,with other <br>family members,We share it equally
+457,0,Other,I take care of most of the housework
+458,0,with other <br>family members,I take care of most of the housework
+460,0,Other,I take care of most of the housework
 463,2,with other <br>family members,I do less housework than others
-464,1,Other,We share it equally
-465,0,alone <br> with my children,I take care of all the housework
-466,1,with other <br>family members,We share it equally
-467,0,with my partner  <br>and children,0
-469,0,with my partner,I take care of all the housework
-470,0,with my partner  <br>and children,I take care of all the housework
-471,1,with other <br>family members,We share it equally
+464,2,with other <br>family members,I do less housework than others
+465,1,Other,We share it equally
+466,0,alone with<br>my children,I take care of all the housework
+467,1,with other <br>family members,We share it equally
+468,0,with <br>my partner  <br>and children,0
+470,0,with my partner,I take care of all the housework
+471,0,with <br>my partner  <br>and children,I take care of all the housework
 472,1,with other <br>family members,We share it equally
-473,0,with my partner,I take care of most of the housework
-474,1,with other <br>family members,We share it equally
-475,1,with my partner,We share it equally
-476,2,with other <br>family members,I do less housework than others
-477,0,alone <br> with my children,I take care of all the housework
-478,2,with my partner,I do less housework than others
-479,0,with my partner,I take care of all the housework
-480,2,with other <br>family members,I do less housework than others
-481,0,Other,I take care of all the housework
-482,0,alone <br> with my children,I take care of all the housework
-485,1,with other <br>family members,We share it equally
-487,0,with my partner,I take care of most of the housework
-488,1,with other <br>family members,We share it equally
-490,0,with my partner,I take care of most of the housework
-491,1,with other <br>family members,We share it equally
-492,1,with my partner,We share it equally
-493,2,with my partner,I do less housework than others
-494,2,with other <br>family members,I do less housework than others
-497,1,with my partner,We share it equally
+473,1,with other <br>family members,We share it equally
+474,0,with my partner,I take care of most of the housework
+475,1,with other <br>family members,We share it equally
+476,1,with my partner,We share it equally
+477,2,with other <br>family members,I do less housework than others
+478,0,alone with<br>my children,I take care of all the housework
+479,2,with my partner,I do less housework than others
+480,0,with my partner,I take care of all the housework
+481,2,with other <br>family members,I do less housework than others
+482,0,Other,I take care of all the housework
+483,0,alone with<br>my children,I take care of all the housework
+486,1,with other <br>family members,We share it equally
+488,0,with my partner,I take care of most of the housework
+489,1,with other <br>family members,We share it equally
+491,0,with my partner,I take care of most of the housework
+492,1,with other <br>family members,We share it equally
+493,1,with my partner,We share it equally
+494,2,with my partner,I do less housework than others
+495,2,with other <br>family members,I do less housework than others
 498,1,with my partner,We share it equally
-499,0,with my partner,I take care of most of the housework
-500,1,with my partner,We share it equally
-502,0,with my partner,I take care of all the housework
-505,0,with my partner,I take care of most of the housework
-507,0,with other <br>family members,I take care of most of the housework
+499,1,with my partner,We share it equally
+500,0,with my partner,I take care of most of the housework
+501,1,with my partner,We share it equally
+503,0,with my partner,I take care of all the housework
+506,0,with my partner,I take care of most of the housework
 508,0,with other <br>family members,I take care of most of the housework
-509,2,with my partner,I do less housework than others
-510,1,Other,We share it equally
-511,1,with other <br>family members,We share it equally
-512,1,with my partner  <br>and children,We share it equally
-513,1,with other <br>family members,We share it equally
-514,0,with my partner,I take care of all the housework
-515,2,with other <br>family members,I am not doing any housework
-516,0,Other,I take care of most of the housework
-517,0,with my partner,I take care of all the housework
-518,0,alone <br> with my children,I take care of most of the housework
-519,1,with other <br>family members,We share it equally
-520,1,with friends,We share it equally
-521,0,with my partner,I take care of most of the housework
-522,1,with my partner,We share it equally
-523,1,with other <br>family members,We share it equally
-524,0,with my partner  <br>and children,I take care of all the housework
-525,2,with my partner,I do less housework than others
-526,1,with other <br>family members,We share it equally
-528,0,with my partner  <br>and children,I take care of all the housework
-529,1,alone <br> with my children,We share it equally
-530,0,with my partner,I take care of all the housework
-531,0,with my partner,I take care of most of the housework
-532,0,with my partner  <br>and children,I take care of most of the housework
-533,2,Other,I do less housework than others
-534,1,Other,We share it equally
-535,1,with friends,We share it equally
-536,0,with my partner  <br>and children,I take care of most of the housework
-537,1,Other,We share it equally
-538,1,with my partner,We share it equally
+509,0,with other <br>family members,I take care of most of the housework
+510,2,with my partner,I do less housework than others
+511,1,Other,We share it equally
+512,1,with other <br>family members,We share it equally
+513,1,with <br>my partner  <br>and children,We share it equally
+514,1,with other <br>family members,We share it equally
+515,0,with my partner,I take care of all the housework
+516,2,with other <br>family members,I am not doing any housework
+517,0,Other,I take care of most of the housework
+518,0,with my partner,I take care of all the housework
+519,0,alone with<br>my children,I take care of most of the housework
+520,1,with other <br>family members,We share it equally
+521,1,with friends,We share it equally
+522,0,with my partner,I take care of most of the housework
+523,1,with my partner,We share it equally
+524,1,with other <br>family members,We share it equally
+525,0,with <br>my partner  <br>and children,I take care of all the housework
+526,2,with my partner,I do less housework than others
+527,1,with other <br>family members,We share it equally
+529,0,with <br>my partner  <br>and children,I take care of all the housework
+530,1,alone with<br>my children,We share it equally
+531,0,with my partner,I take care of all the housework
+532,0,with my partner,I take care of most of the housework
+533,0,with <br>my partner  <br>and children,I take care of most of the housework
+534,2,Other,I do less housework than others
+535,1,Other,We share it equally
+536,1,with friends,We share it equally
+537,0,with <br>my partner  <br>and children,I take care of most of the housework
+538,1,Other,We share it equally
 539,1,with my partner,We share it equally
 540,1,with my partner,We share it equally
-542,0,with my partner  <br>and children,I take care of all the housework
-543,1,with my partner,We share it equally
-544,1,with friends,We share it equally
-546,1,with other <br>family members,We share it equally
-547,0,alone <br> with my children,I take care of all the housework
-549,0,with my partner  <br>and children,I take care of all the housework
-550,2,with other <br>family members,I do less housework than others
-551,1,with my partner  <br>and children,We share it equally
-552,1,with friends,We share it equally
-553,0,with my partner,I take care of most of the housework
+541,1,with my partner,We share it equally
+543,0,with <br>my partner  <br>and children,I take care of all the housework
+544,1,with my partner,We share it equally
+545,1,with friends,We share it equally
+547,1,with other <br>family members,We share it equally
+548,0,alone with<br>my children,I take care of all the housework
+550,0,with <br>my partner  <br>and children,I take care of all the housework
+551,2,with other <br>family members,I do less housework than others
+552,1,with <br>my partner  <br>and children,We share it equally
+553,1,with friends,We share it equally
 554,0,with my partner,I take care of most of the housework
-555,1,with my partner,We share it equally
+555,0,with my partner,I take care of most of the housework
 556,1,with my partner,We share it equally
-557,2,with other <br>family members,I do less housework than others
-560,2,Other,I do less housework than others
-561,2,with other <br>family members,I am not doing any housework
-562,2,with other <br>family members,I do less housework than others
-563,1,with my partner,We share it equally
-564,1,alone <br> with my children,We share it equally
-565,0,with my partner,I take care of most of the housework
-566,0,with my partner  <br>and children,I take care of all the housework
-567,0,with my partner  <br>and children,I take care of most of the housework
-568,0,with my partner  <br>and children,I take care of all the housework
-569,0,alone <br> with my children,I take care of most of the housework
-570,0,Other,I take care of all the housework
-572,1,with my partner  <br>and children,We share it equally
-575,0,with my partner  <br>and children,I take care of most of the housework
-577,0,with my partner  <br>and children,I take care of most of the housework
-578,0,Other,I take care of most of the housework
-579,0,with my partner,I take care of most of the housework
-580,1,with my partner  <br>and children,We share it equally
-582,0,Other,I take care of most of the housework
-583,1,with my partner,We share it equally
+557,1,with my partner,We share it equally
+558,2,with other <br>family members,I do less housework than others
+561,2,Other,I do less housework than others
+562,2,with other <br>family members,I am not doing any housework
+563,2,with other <br>family members,I do less housework than others
+564,1,with my partner,We share it equally
+565,1,alone with<br>my children,We share it equally
+566,0,with my partner,I take care of most of the housework
+567,0,with <br>my partner  <br>and children,I take care of all the housework
+568,0,with <br>my partner  <br>and children,I take care of most of the housework
+569,0,with <br>my partner  <br>and children,I take care of all the housework
+570,0,alone with<br>my children,I take care of most of the housework
+571,0,Other,I take care of all the housework
+573,1,with <br>my partner  <br>and children,We share it equally
+576,0,with <br>my partner  <br>and children,I take care of most of the housework
+578,0,with <br>my partner  <br>and children,I take care of most of the housework
+579,0,Other,I take care of most of the housework
+580,0,with my partner,I take care of most of the housework
+581,1,with <br>my partner  <br>and children,We share it equally
+583,0,Other,I take care of most of the housework
 584,1,with my partner,We share it equally
-585,2,with other <br>family members,I do less housework than others
-586,2,with my partner  <br>and children,I do less housework than others
-587,1,with my partner  <br>and children,We share it equally
-588,0,with my partner  <br>and children,I take care of all the housework
-589,1,with other <br>family members,We share it equally
-590,1,with friends,We share it equally
-591,0,with my partner  <br>and children,I take care of most of the housework
-592,0,with other <br>family members,I take care of most of the housework
-593,1,with friends,We share it equally
-594,0,with my partner  <br>and children,I take care of most of the housework
-595,1,with friends,We share it equally
-596,0,with my partner,I take care of all the housework
-597,0,alone <br> with my children,I take care of all the housework
-601,0,alone <br> with my children,I take care of most of the housework
-604,1,with other <br>family members,We share it equally
-606,0,Other,I take care of all the housework
-608,1,with my partner  <br>and children,We share it equally
-609,1,with my partner,We share it equally
-612,1,with other <br>family members,We share it equally
-613,2,with other <br>family members,I do less housework than others
-614,2,with other <br>family members,I am not doing any housework
-617,0,Other,I take care of all the housework
-619,0,with my partner,I take care of most of the housework
-620,1,with other <br>family members,We share it equally
-621,1,with my partner,We share it equally
-624,0,with my partner,I take care of most of the housework
+585,1,with my partner,We share it equally
+586,2,with other <br>family members,I do less housework than others
+587,2,with <br>my partner  <br>and children,I do less housework than others
+588,1,with <br>my partner  <br>and children,We share it equally
+589,0,with <br>my partner  <br>and children,I take care of all the housework
+590,1,with other <br>family members,We share it equally
+591,1,with friends,We share it equally
+592,0,with <br>my partner  <br>and children,I take care of most of the housework
+593,0,with other <br>family members,I take care of most of the housework
+594,1,with friends,We share it equally
+595,0,with <br>my partner  <br>and children,I take care of most of the housework
+596,1,with friends,We share it equally
+597,0,with my partner,I take care of all the housework
+598,0,alone with<br>my children,I take care of all the housework
+602,0,alone with<br>my children,I take care of most of the housework
+605,1,with other <br>family members,We share it equally
+607,0,Other,I take care of all the housework
+609,1,with <br>my partner  <br>and children,We share it equally
+610,1,with my partner,We share it equally
+613,1,with other <br>family members,We share it equally
+614,2,with other <br>family members,I do less housework than others
+615,2,with other <br>family members,I am not doing any housework
+618,0,Other,I take care of all the housework
+620,0,with my partner,I take care of most of the housework
+621,1,with other <br>family members,We share it equally
+622,1,with my partner,We share it equally
+625,0,with my partner,I take care of most of the housework
