@@ -5,8 +5,8 @@ LIVING_CATEGORY_NAMES = {
     "siblings_parent_other_family": "with other <br>family members",
     "friends_only": "with friends",
     "live_with_partner_only": "with my partner",
-    "live_with_partner_and_children_only": "with my partner  <br>and children",
-    "live_with_children_only": "alone <br> with my children",
+    "live_with_partner_and_children_only": "with <br>my partner<br>and children",
+    "live_with_children_only": "alone with<br>my children",
 }
 
 
