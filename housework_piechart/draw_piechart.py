@@ -19,20 +19,22 @@ def create_piechart_df(sankey_df):
 
 def piechart(sankey_df):
     labels_piechart,values_piechart = create_piechart_df(sankey_df)
-    colorscale = ["#9F8CF3","#F9C2C2","#FFAECA","#199eda","#F2F2F2"]
+    colorscale = ["#e25c8d","#FFAECA","#f2f2f2","#BFB0FF","#9F8CF3"]
 
     # pull is given as a fraction of the pie radius
     fig = go.Figure(data=[go.Pie(
         labels=labels_piechart, 
         values=values_piechart, 
-        pull=[0, 0, 0,0.2, 0],
-
+        pull=[0, 0, 0,0.2, 0.2],
+        sort = False,
     )])
 
     fig.update_layout(
             paper_bgcolor='rgba(0,0,0,0)',
-            height=500,  # height of the graph
             plot_bgcolor='rgba(0,0,0,0)',
+            legend_orientation="h",
+            height = 500
+
         )
 
     fig.update_traces(textfont_size=10,
