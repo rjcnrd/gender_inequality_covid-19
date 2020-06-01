@@ -1,4 +1,4 @@
-# Visualisation of the gendered impact of COVID-19 in the UK using Python Dash 
+# Visualisation of the gendered impact of COVID-19 in the UK using Python Dash for UN Women UK
 
 ## Project Background
 We launched this collaboration at the beginning of April 2020, when political leaders and the press were looking for (missing) evidence of domestic violence and other gendered issues created by the lockdown measures in several European countries. 
