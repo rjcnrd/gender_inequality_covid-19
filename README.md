@@ -9,7 +9,15 @@ Our work consisted in helping with the creation of an online survey which was di
 
 ## Results
 
-We summarise the outcome of the survey in 4 main graphs. The graphs created in this application are embedded via iframes in the Wordpress-based page that constitutes the Everyday Allyship platform, where each graph is "solo" embedded using it's unique URL. We maintained an overview page containing all of the data within this application to enable Dash developers to get inspired by our graphs and.
+We summarise the outcome of the survey in 4 main graphs. The graphs created in this application are embedded via iframes in the Wordpress-based page that constitutes the Everyday Allyship platform, where each graph is "solo" embedded using it's unique URL. 
+
+We nevertheless maintained an overview page containing all of the visualisations within this application for easier testing in development and to enable Dash developers to get inspired by our graphs.
+
+![map graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_map.jpg)
+![mental-health-graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_mental.jpg)
+![sankey graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_sankey.jpg)
+![pie graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_pie.jpg)
+
 
 ## Setup of the Repository 
 
@@ -33,18 +41,23 @@ Open http://127.0.0.1:8050/ in your browser to see the app.
 pip3 freeze>requirements.txt
 ```
 
-#### Deploy the app on Heroku :
+#### Deploy the app on Heroku
 
-Make sure you have master up to date, then :
+Make sure you have master up to date, then
 
 ```
 git push heroku master
 ```
-deployed app : https://gender-inequality-covid-19.herokuapp.com/
+deployed app: https://gender-inequality-covid-19.herokuapp.com/
 
 ## Built With
 
 * [Plotly/Dash](https://plotly.com/dash/) 
+* [Dash Bootstrap Components] (https://dash-bootstrap-components.opensource.faculty.ai/)
+* [Typeform API] (https://developer.typeform.com/)
+* [Heroku] (www.heroku.com)
+* [Undraw for Images] (http://undraw.co/)
+
 ## Authors
 
 Amélie Meurer and Roberta Conrad
