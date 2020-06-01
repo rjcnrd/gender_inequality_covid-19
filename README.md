@@ -11,7 +11,7 @@ Our work consisted in helping with the creation of an online survey which was di
 
 We summarise the outcome of the survey in 4 main graphs. The graphs created in this application are embedded via iframes in the Wordpress-based page that constitutes the Everyday Allyship platform, where each graph is "solo" embedded using it's unique URL. We maintained an overview page containing all of the data within this application to enable Dash developers to get inspired by our graphs and.
 
-### Setup of the Repository 
+## Setup of the Repository 
 
 After cloning the repo, create a virtual environment & start the app following the steps below.
 
