@@ -1,10 +1,17 @@
-# Analysis of the gendered impact of COVID-19 in the UK 
+# Visualisation of the gendered impact of COVID-19 in the UK using Python Dash 
 
-In several European countries, radical political measures such as nation-wide lockdowns and other restrictions impacting the economy have been implemented following the covid-19 outbreak in Spring 2020.
+## Project Background
+We launched this collaboration at the beginning of April 2020, when political leaders and the press were looking for (missing) evidence of domestic violence and other gendered issues created by the lockdown measures in several European countries. 
 
-Many of these political decisions and consequences of the pandemic impact women different then men. This project aims at painting a picture of the current situation to raise public attention and action to the subject.
+We got in touch with UN Women UK to support their efforts in producing a single touchpoint on those issues using data science tools.
 
-### Setup
+Our work consisted in helping with the creation of an online survey which was distributed through the numerous PR channels of UN Women UK. We then worked together with a team of volunteers on the creation of the “Everyday Allyship” platform, specifically the pillar Data for which we built several graphs that communicate the learnings of the online survey to visitors of the Everyday Allyship platform as well as press and political actors. The results of our work will soon be deployed on everydayallyship.com.
+
+## Results
+
+We summarise the outcome of the survey in 4 main graphs. The graphs created in this application are embedded via iframes in the Wordpress-based page that constitutes the Everyday Allyship platform, where each graph is "solo" embedded using it's unique URL. We maintained an overview page containing all of the data within this application to enable Dash developers to get inspired by our graphs and.
+
+### Setup of the Repository 
 
 After cloning the repo, create a virtual environment & start the app following the steps below.
 
