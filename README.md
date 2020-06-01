@@ -59,10 +59,10 @@ deployed app: https://gender-inequality-covid-19.herokuapp.com/
 ## Built With
 
 * [Plotly/Dash](https://plotly.com/dash/) 
-* [Dash Bootstrap Components] (https://dash-bootstrap-components.opensource.faculty.ai/)
-* [Typeform API] (https://developer.typeform.com/)
-* [Heroku] (www.heroku.com)
-* [Undraw for Images] (http://undraw.co/)
+* [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/)
+* [Typeform API](https://developer.typeform.com/)
+* [Heroku](www.heroku.com)
+* [Undraw for Images](http://undraw.co/)
 
 ## Authors
 
