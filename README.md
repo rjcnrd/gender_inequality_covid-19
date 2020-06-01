@@ -13,14 +13,17 @@ We summarise the outcome of the survey in 4 main graphs. The graphs created in t
 
 We nevertheless maintained an overview page containing all of the visualisations within this application for easier testing in development and to enable Dash developers to get inspired by our graphs.
 
-<img src="https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_map.jpg" alt="Kitten"
-	title="Map graph" width="200" />
-
-![map graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_map.jpg)
-![mental-health-graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_mental.jpg)
-![sankey graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_sankey.jpg)
-![pie graph](https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_pie.jpg)
-
+<img src="https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_map.jpg" alt="map graph"
+	title="Map graph" width="400" />
+	
+<img src="https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_mental.jpg" alt="mental health graph"
+	title="mental health graph" width="400" />
+	
+<img src="https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_sankey.jpg" alt="sankey graph graph"
+	title="sankey graph" width="400" />
+	
+<img src="https://github.com/rjcnrd/gender_inequality_covid-19/blob/master/assets/screenshot_pie.jpg" alt="pie chart"
+	title="pie chart" width="400" />
 
 ## Setup of the Repository 
 
