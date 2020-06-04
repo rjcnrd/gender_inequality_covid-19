@@ -29,7 +29,7 @@ sankey_df = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequal
 
 map_df = pd.read_csv(
     "https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_map_all_reports.csv")
-data_scatter = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/scatter_mental_health/data/data_scatterplot.csv")
+data_scatter = pd.read_csv("https://raw.githubusercontent.com/rjcnrd/gender_inequality_covid-19/master/data/data_scatterplot.csv")
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 

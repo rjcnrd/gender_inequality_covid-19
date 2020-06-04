@@ -73,6 +73,7 @@ def location_scatterplot(survey_df, num_by_col=5, include_other=True, include_ma
                                   (num_by_col + space_between_rating) * nb_ratings + space_between_gender)
     return point_location
 
+
 def testimonial_treatment(testimonial_df, maximum_total_length, maximum_line_length, minimum_total_length):
     """
     :param testimonial_df: the testimonial data in the other of appearance. Columns should be "gender", "mental_scale","testimonial"
@@ -98,7 +99,7 @@ def testimonial_treatment(testimonial_df, maximum_total_length, maximum_line_len
     return testimonial_df
 
 
-def merge_testimonials(location_data, testimonial_data, include_other=True):
+def merge_testimonials(location_data, testimonial_data, include_other=True, include_man = True):
     """
     :param location_data: the result of the function location scatter plot
     :param testimonial_data: the testimonial data in the other of appearance. Columns should be "gender", "mental_scale","testimonial", "testimonials_short", "display_testimonial"
@@ -107,6 +108,8 @@ def merge_testimonials(location_data, testimonial_data, include_other=True):
     """
     if not include_other:
         testimonial_data = testimonial_data.loc[testimonial_data.gender != 0]
+    if not include_man:
+        testimonial_data = testimonial_data.loc[testimonial_data.gender != "Man"]
     testimonial_data = testimonial_data.sort_values(["gender", "mental_scale"]).reset_index(drop=True)
     data = location_data.merge(testimonial_data[["testimonials_short", "display_testimonial"]], right_index=True,
                                left_index=True)
