@@ -51,11 +51,11 @@ def draw_scatterbarplot(data, num_by_col=5, dot_size = 7):
     gender_position_y = [-5] * 3
 
     if number_gender == 1:
-        gender_text_label = ["Woman"]
+        gender_text_label = [""]
     elif number_gender == 2:
-        gender_text_label = ["Woman", "Man"]
+        gender_text_label = ["Women", "Men"]
     else:
-        gender_text_label = ["Woman", "Other", "Man"]
+        gender_text_label = ["Women", "Other", "Men"]
 
     # Position of the small lines between the gradings
     small_line_position = [start_position1 + x * (num_by_col + space_between_rating) for x in range(nb_ratings - 1)]
