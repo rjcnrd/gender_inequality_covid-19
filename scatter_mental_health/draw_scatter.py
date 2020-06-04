@@ -1,4 +1,3 @@
-import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 
@@ -7,8 +6,9 @@ space_between_rating = 1
 space_between_gender = 2
 
 
-def draw_scatterbarplot(data, num_by_col=5):
+def draw_scatterbarplot(data, num_by_col=5, dot_size = 7):
     """
+    :param dot_size: size of the dot for the scatter plot
     :param num_by_col: The number of points by row in each column of mental health rating. Default value is 5
     :return: the scatterbarplot
     """
@@ -76,7 +76,7 @@ def draw_scatterbarplot(data, num_by_col=5):
     fig.add_trace(go.Scatter(x=data_without_testimonial.x,
                              y=data_without_testimonial.y,
                              mode='markers',
-                             marker=dict(color="black", size=3),
+                             marker=dict(color="black", size=dot_size),
                              hovertemplate=None,
                              hoverinfo='skip'))
 
@@ -84,7 +84,7 @@ def draw_scatterbarplot(data, num_by_col=5):
     fig.add_trace(go.Scatter(x=data_testimonial.x,
                              y=data_testimonial.y,
                              mode='markers',
-                             marker=dict(color="#FFAECA", size=3),
+                             marker=dict(color="#FFAECA", size=dot_size),
                              text=data_testimonial.testimonials_short,
                              hovertemplate="%{text}" + "<extra></extra>",
                              hoverlabel=dict(
