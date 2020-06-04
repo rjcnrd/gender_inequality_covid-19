@@ -26,31 +26,42 @@ def draw_scatterbarplot(data, num_by_col=5):
     start_position1 = np.median(range(num_by_col))
     start_position2 = (num_by_col + space_between_rating) * nb_ratings + space_between_gender + start_position1
     start_position3 = ((num_by_col + space_between_rating) * nb_ratings + space_between_gender) * 2 + start_position1
-    mental_health_position_x = [start_position1 + x * (num_by_col + space_between_rating) for x in
-                                range(nb_ratings)] + [start_position2 + x * (num_by_col + space_between_rating) for x in
-                                                      range(nb_ratings)]
+
+    # Mental health position grading
+    mental_health_position_x = [start_position1 + x * (num_by_col + space_between_rating) for x in range(nb_ratings)]
+    if number_gender == 2:
+        mental_health_position_x = mental_health_position_x + [start_position2 + x * (num_by_col + space_between_rating)
+                                                               for x in range(nb_ratings)]
     if number_gender == 3:
         mental_health_position_x = mental_health_position_x + [start_position3 + x * (num_by_col + space_between_rating)
                                                                for x in range(nb_ratings)]
+
     mental_health_position_y = [-2] * number_gender * nb_ratings
     mental_health_label = [int(x) for x in list(range(nb_ratings)) * number_gender]
 
     # Position of the gender label
-    gender_position_x = [(num_by_col + 1) * nb_ratings / 2 - 1,
-                         (num_by_col + 1) * nb_ratings + space_between_gender + (num_by_col + 1) * nb_ratings / 2 - 1]
+    gender_position_x = [(num_by_col + 1) * nb_ratings / 2 - 1]
 
+    if number_gender == 2:
+        gender_position_x = gender_position_x + [
+            (num_by_col + 1) * nb_ratings + space_between_gender + (num_by_col + 1) * nb_ratings / 2 - 1]
     if number_gender == 3:
         gender_position_x = gender_position_x + [
             ((num_by_col + 1) * nb_ratings + space_between_gender) * 2 + (num_by_col + 1) * nb_ratings / 2 - 1]
     gender_position_y = [-5] * 3
-    if number_gender == 2:
+
+    if number_gender == 1:
+        gender_text_label = ["Woman"]
+    elif number_gender == 2:
         gender_text_label = ["Woman", "Man"]
     else:
         gender_text_label = ["Woman", "Other", "Man"]
 
     # Position of the small lines between the gradings
-    small_line_position = [start_position1 + x * (num_by_col + space_between_rating) for x in range(nb_ratings - 1)] + [
-        start_position2 + x * (num_by_col + space_between_rating) for x in range(nb_ratings - 1)]
+    small_line_position = [start_position1 + x * (num_by_col + space_between_rating) for x in range(nb_ratings - 1)]
+    if number_gender == 2:
+        small_line_position = small_line_position + [start_position2 + x * (num_by_col + space_between_rating) for x in
+                                                     range(nb_ratings - 1)]
     if number_gender == 3:
         small_line_position = small_line_position + [start_position3 + x * (num_by_col + space_between_rating) for x in
                                                      range(nb_ratings - 1)]
@@ -108,18 +119,21 @@ def draw_scatterbarplot(data, num_by_col=5):
             x=[x + np.median(range(num_by_col)) + space_between_rating,
                x + np.median(range(num_by_col)) + space_between_rating],
             y=[0, -3],
-            mode="lines", marker=dict(color="black",  size=1),
+            mode="lines", marker=dict(color="black", size=1),
             hoverinfo="skip"
         ))
     # Big Line
-    for x in big_line_position:
-        fig.add_trace(go.Scatter(
-            x=[x, x],
-            y=[-3, 4],
-            mode="lines",
-            marker=dict(color="black", size=3),
-            hoverinfo="skip"
-        ))
+    if number_gender == 1:
+        pass
+    else:
+        for x in big_line_position:
+            fig.add_trace(go.Scatter(
+                x=[x, x],
+                y=[-3, 4],
+                mode="lines",
+                marker=dict(color="black", size=3),
+                hoverinfo="skip"
+            ))
 
     fig.update_layout(showlegend=False,
                       paper_bgcolor='rgba(0,0,0,0)',
